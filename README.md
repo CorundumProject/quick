@@ -1,4 +1,4 @@
-![capture](#)
+![capture](assets/img/capture.png)
 
 # ⚡️ Quick
 
