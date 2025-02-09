@@ -52,7 +52,7 @@ helpButton.addEventListener("click", () => {
 });
 
 // Chargement du fichier JSON avec fetch()
-fetch("http://localhost:8888/quick/assets/json/applications.json")
+fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Erreur lors du chargement du fichier JSON");

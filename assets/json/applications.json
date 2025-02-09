@@ -3,96 +3,96 @@
     "id": "google-chrome",
     "name": "Google Chrome",
     "description": "Navigateur web rapide et sécurisé.",
-    "icon": "http://localhost:8888/quick/assets/icons/chrome.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/chrome.png"
   },
   {
     "id": "firefox",
     "name": "Mozilla Firefox",
     "description": "Navigateur web axé sur la confidentialité et la performance.",
-    "icon": "http://localhost:8888/quick/assets/icons/firefox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png"
   },
   {
     "id": "visual-studio-code",
     "name": "Microsoft Visual Studio Code",
     "description": "Éditeur de code léger et puissant.",
-    "icon": "http://localhost:8888/quick/assets/icons/vscode.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png"
   },
   {
     "id": "discord",
     "name": "Discord",
     "description": "Application de communication pour les communautés et les gamers.",
-    "icon": "http://localhost:8888/quick/assets/icons/discord.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/discord.png"
   },
   {
     "id": "spotify",
     "name": "Spotify",
     "description": "Service de streaming musical avec des millions de titres.",
-    "icon": "http://localhost:8888/quick/assets/icons/spotify.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/spotify.png"
   },
   {
     "id": "iina",
     "name": "IINA",
     "description": "Lecteur multimédia moderne et open-source pour macOS.",
-    "icon": "http://localhost:8888/quick/assets/icons/iina.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/iina.png"
   },
   {
     "id": "postman",
     "name": "Postman",
     "description": "Outil de test et développement d'API.",
-    "icon": "http://localhost:8888/quick/assets/icons/postman.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/postman.png"
   },
   {
     "id": "docker",
     "name": "Docker",
     "description": "Plateforme de conteneurisation pour le développement et la production.",
-    "icon": "http://localhost:8888/quick/assets/icons/docker.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/docker.png"
   },
   {
     "id": "notion",
     "name": "Notion",
     "description": "Outil tout-en-un pour la prise de notes, la gestion de projet et la collaboration.",
-    "icon": "http://localhost:8888/quick/assets/icons/notion.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/notion.png"
   },
   {
     "id": "1password",
     "name": "1Password",
     "description": "Gestionnaire de mots de passe sécurisé.",
-    "icon": "http://localhost:8888/quick/assets/icons/1password.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/1password.png"
   },
   {
     "id": "slack",
     "name": "Slack",
     "description": "Plateforme de communication collaborative pour les équipes.",
-    "icon": "http://localhost:8888/quick/assets/icons/slack.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/slack.png"
   },
   {
     "id": "zoom",
     "name": "Zoom",
     "description": "Application de visioconférence et de réunions en ligne.",
-    "icon": "http://localhost:8888/quick/assets/icons/zoom.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/zoom.png"
   },
   {
     "id": "alfred",
     "name": "Alfred",
     "description": "Application de productivité pour lancer des applications et rechercher des fichiers rapidement.",
-    "icon": "http://localhost:8888/quick/assets/icons/alfred.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/alfred.png"
   },
   {
     "id": "rectangle",
     "name": "Rectangle",
     "description": "Outil de gestion des fenêtres pour macOS.",
-    "icon": "http://localhost:8888/quick/assets/icons/rectangle.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/rectangle.png"
   },
   {
     "id": "the-unarchiver",
     "name": "The Unarchiver",
     "description": "Outil de décompression prenant en charge de nombreux formats d'archives.",
-    "icon": "http://localhost:8888/quick/assets/icons/the-unarchiver.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/the-unarchiver.png"
   },
   {
     "id": "vlc",
     "name": "VLC media player",
     "description": "Lecteur multimédia open source.",
-    "icon": "http://localhost:8888/quick/assets/icons/vlc.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vlc.png"
   }
 ]
