@@ -1,0 +1,63 @@
+.banner {
+    width: 100%;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+}
+
+.banner .brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner .brand .logo {
+    width: 64px;
+}
+
+.banner .description {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: 200ms ease-in-out;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.error {
+    display: none;
+}
+
+@keyframes displayError {
+    0% {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+    }
+    10% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    90% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
