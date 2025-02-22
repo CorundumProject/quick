@@ -5,6 +5,26 @@ const errorAlert = document.querySelector(".error");
 const modal = document.querySelector('#installModal');
 const helpButton = document.querySelector(".help");
 const outputCommand = document.querySelector(".command");
+const status = document.querySelector(".status");
+
+// Vérifier la préférence de thème de l'utilisateur (clair ou sombre)
+const themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+// Fonction pour appliquer le thème
+function applyTheme() {
+    if (themeMediaQuery.matches) {
+        document.body.setAttribute('data-bs-theme', 'dark');
+    } else {
+        document.body.setAttribute('data-bs-theme', 'light');
+    }
+}
+
+// Appliquer immédiatement le thème en fonction de la préférence de l'utilisateur
+applyTheme();
+
+// Ajouter un écouteur d'événement pour détecter les changements de préférence de thème
+themeMediaQuery.addEventListener('change', applyTheme);
+
 
 // Sélectionner les applications à installer
 function selectApp(card, appId) {
@@ -13,11 +33,11 @@ function selectApp(card, appId) {
     if (index === -1) {
         // Ajouter l'application si elle n'est pas déjà sélectionnée
         selectedApplications.push(appId);
-        card.classList.add("text-bg-primary");
+        card.classList.add("border-primary");
     } else {
         // Retirer l'application si elle est déjà sélectionnée
         selectedApplications.splice(index, 1);
-        card.classList.remove("text-bg-primary");
+        card.classList.remove("border-primary");
     }
 }
 
@@ -40,7 +60,8 @@ function generateInstallCommand() {
 document.addEventListener("keydown", (event) => {
     if (event.key === "i" || event.key === "I") {
         // Générer et afficher la commande
-        outputCommand.textContent = "brew install --cask " + selectedApplications.join(" ");
+        const command = "brew install --cask " + selectedApplications.join(" ");
+        outputCommand.textContent = command;
 
         generateInstallCommand();
     }
@@ -49,6 +70,28 @@ document.addEventListener("keydown", (event) => {
 // Fonctionnement du bouton d'aide
 helpButton.addEventListener("click", () => {
     window.open('https://corundum.gitbook.io/quick', '_blank');
+});
+
+// Copier la commande dans le presse-papier quand l'utilisateur clique dessus
+outputCommand.addEventListener("click", () => {
+    const commandText = outputCommand.textContent;
+
+    // Utiliser l'API Clipboard pour copier
+    navigator.clipboard.writeText(commandText).then(() => {
+        status.classList.add("text-success");
+        status.textContent = "Texte copié !";
+        setTimeout(() => {
+            status.classList.remove("text-success");
+            status.textContent = "";
+        }, 2500);
+    }).catch((err) => {
+        status.classList.add("text-danger");
+        status.textContent = "Une erreur est survenue : " + err;
+        setTimeout(() => {
+            status.classList.remove("text-danger");
+            status.textContent = "";
+        }, 2500);
+    });
 });
 
 // Chargement du fichier JSON avec fetch()
@@ -70,11 +113,11 @@ fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
             colDiv.classList.add("col");
 
             const cardDiv = document.createElement("div");
-            cardDiv.classList.add("card", "h-100");
+            cardDiv.classList.add("card", "h-100", "border-3");
             cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
 
             const imgContainer = document.createElement("div");
-            imgContainer.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "mt-4");
+            imgContainer.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "mt-4", "pe-auto");
 
             const img = document.createElement("img");
             img.src = app.icon;
@@ -89,7 +132,7 @@ fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
             cardTitle.textContent = app.name;
 
             const cardText = document.createElement("p");
-            cardText.classList.add("card-text", "text-muted", "text-center");
+            cardText.classList.add("card-text", "text-center", "text-muted");
             cardText.textContent = app.description;
 
             // Assembler les éléments

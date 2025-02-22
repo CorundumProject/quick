@@ -13,7 +13,7 @@
   },
   {
     "id": "visual-studio-code",
-    "name": "Microsoft Visual Studio Code",
+    "name": "Visual Studio Code",
     "description": "Éditeur de code léger et puissant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png"
   },
@@ -94,5 +94,83 @@
     "name": "VLC media player",
     "description": "Lecteur multimédia open source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vlc.png"
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "description": "Éditeur de texte sophistiqué pour le développement et la programmation.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-text.png"
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "description": "Logiciel de dessin vectoriel libre et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/inkscape.png"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "description": "Outil de design collaboratif et prototypage en ligne.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/figma.png"
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "description": "Logiciel d'édition audio libre et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/audacity.png"
+  },
+  {
+    "id": "handbrake",
+    "name": "HandBrake",
+    "description": "Outil de conversion vidéo open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/handbrake.png"
+  },
+  {
+    "id": "little-snitch",
+    "name": "Little Snitch",
+    "description": "Outil de gestion de la connexion réseau et de la confidentialité.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/little-snitch.png"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "description": "Gestionnaire de mots de passe open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/bitwarden.png"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Outil de prise de notes et de gestion de connaissances basé sur Markdown.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/obsidian.png"
+  },
+  {
+    "id": "keyboard-maestro",
+    "name": "Keyboard Maestro",
+    "description": "Automatisation de tâches et raccourcis clavier pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keyboard-maestro.png"
+  },
+  {
+    "id": "element",
+    "name": "Element",
+    "description": "Application de communication décentralisée et sécurisée (Matrix).",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/element.png"
+  },
+  {
+    "id": "gitkraken",
+    "name": "GitKraken",
+    "description": "Client Git visuel pour la gestion de version.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/gitkraken.png"
+  },
+  {
+    "id": "zoomit",
+    "name": "ZoomIt",
+    "description": "Outil de zoom et d'annotation d'écran pour les présentations.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/zoomit.png"
+  },
+  {
+    "id": "onyx",
+    "name": "OnyX",
+    "description": "Vérifier la structure des fichiers du système, effectuer diverses opérations de maintenance, etc.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png"
   }
 ]
