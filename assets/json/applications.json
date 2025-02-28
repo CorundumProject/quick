@@ -162,15 +162,141 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/gitkraken.png"
   },
   {
-    "id": "zoomit",
-    "name": "ZoomIt",
-    "description": "Outil de zoom et d'annotation d'écran pour les présentations.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/zoomit.png"
-  },
-  {
     "id": "onyx",
     "name": "OnyX",
     "description": "Vérifier la structure des fichiers du système, effectuer diverses opérations de maintenance, etc.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png"
+  },
+  {
+    "id": "brave-browser",
+    "name": "Brave",
+    "description": "Navigateur web axé sur la confidentialité et la rapidité.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/brave.png"
+  },
+  {
+    "id": "opera",
+    "name": "Opera",
+    "description": "Navigateur web rapide avec bloqueur de pubs intégré.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/opera.png"
+  },
+  {
+    "id": "tor-browser",
+    "name": "Tor Browser",
+    "description": "Navigateur sécurisé permettant une navigation anonyme.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/tor.png"
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "description": "Client mail open-source et sécurisé.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/thunderbird.png"
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "description": "Éditeur d'images open-source puissant.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/gimp.png"
+  },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "description": "Logiciel de dessin et de peinture numérique open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/krita.png"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "description": "Suite de création 3D open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/blender.png"
+  },
+  {
+    "id": "balenaetcher",
+    "name": "balenaEtcher",
+    "description": "Outil de création de clés USB bootables.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/etcher.png"
+  },
+  {
+    "id": "android-studio",
+    "name": "Android Studio",
+    "description": "Environnement de développement pour applications Android.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/android-studio.png"
+  },
+  {
+    "id": "jetbrains-toolbox",
+    "name": "JetBrains Toolbox",
+    "description": "Gestionnaire des outils de développement JetBrains.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/jetbrains-toolbox.png"
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm",
+    "description": "Environnement de développement Python avancé.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/pycharm.png"
+  },
+  {
+    "id": "webstorm",
+    "name": "WebStorm",
+    "description": "IDE performant pour le développement JavaScript et TypeScript.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/webstorm.png"
+  },
+  {
+    "id": "phpstorm",
+    "name": "PhpStorm",
+    "description": "IDE complet pour le développement PHP avec des outils avancés.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/phpstorm.png"
+  },
+  {
+    "id": "datagrip",
+    "name": "DataGrip",
+    "description": "Outil avancé de gestion de bases de données.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/datagrip.png"
+  },
+  {
+    "id": "mongodb-compass",
+    "name": "MongoDB Compass",
+    "description": "Interface graphique pour gérer MongoDB.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mongodb-compass.png"
+  },
+  {
+    "id": "cyberduck",
+    "name": "Cyberduck",
+    "description": "Client FTP/SFTP open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/cyberduck.png"
+  },
+  {
+    "id": "transmission",
+    "name": "Transmission",
+    "description": "Client BitTorrent léger et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/transmission.png"
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "description": "Plateforme de jeux vidéo en ligne.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/steam.png"
+  },
+  {
+    "id": "openemu",
+    "name": "OpenEmu",
+    "description": "Émulateur multi-consoles pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/openemu.png"
+  },
+  {
+    "id": "virtualbox",
+    "name": "VirtualBox",
+    "description": "Solution de virtualisation gratuite et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/virtualbox.png"
+  },
+  {
+    "id": "parallels",
+    "name": "Parallels Desktop",
+    "description": "Logiciel de virtualisation pour exécuter Windows sur Mac.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/parallels.png"
+  },
+  {
+    "id": "vmware-fusion",
+    "name": "VMware Fusion",
+    "description": "Solution de virtualisation avancée pour exécuter des systèmes d'exploitation sur macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vmware-fusion.png"
   }
 ]
