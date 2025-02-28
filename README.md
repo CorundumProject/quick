@@ -1,8 +1,8 @@
-![capture](assets/img/capture.png)
-
 # ⚡️ Quick
 
 **Quick** permet aux utilisateurs de télécharger des applications à la manière de [macapps](https://macapps.link) via [brew](https://brew.sh).
+
+![capture](assets/img/capture.png)
 
 ## 🔰 Utilisation
 
