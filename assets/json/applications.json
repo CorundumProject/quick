@@ -298,5 +298,161 @@
     "name": "VMware Fusion",
     "description": "Solution de virtualisation avancée pour exécuter des systèmes d'exploitation sur macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vmware-fusion.png"
+  },
+  {
+    "id": "disk-drill",
+    "name": "Disk Drill",
+    "description": "Logiciel de récupération de données pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/disk-drill.png"
+  },
+  {
+    "id": "obs",
+    "name": "OBS Studio",
+    "description": "Logiciel de streaming et d'enregistrement vidéo open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/obs-studio.png"
+  },
+  {
+    "id": "darktable",
+    "name": "Darktable",
+    "description": "Logiciel de traitement photo open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/darktable.png"
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "description": "Éditeur vidéo open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/shotcut.png"
+  },
+  {
+    "id": "musescore",
+    "name": "MuseScore",
+    "description": "Logiciel de notation musicale open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/musescore.png"
+  },
+  {
+    "id": "godot",
+    "name": "Godot",
+    "description": "Moteur de jeu open-source pour la 2D et la 3D.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/godot.png"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "description": "Analyseur de protocoles réseau open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png"
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "description": "Moteur de jeu populaire pour le développement 2D et 3D.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/unity.png"
+  },
+  {
+    "id": "epic-games",
+    "name": "Epic Games Launcher",
+    "description": "Plateforme de téléchargement et gestion des jeux Epic Games.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/epic-games-launcher.png"
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "description": "Jeu de construction et d'exploration en monde ouvert.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/minecraft.png"
+  },
+  {
+    "id": "minetest",
+    "name": "Minetest",
+    "description": "Alternative open-source à Minecraft.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/minetest.png"
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "description": "Plateforme de création et de jeu en ligne.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/roblox.png"
+  },
+  {
+    "id": "deezer",
+    "name": "Deezer",
+    "description": "Service de streaming musical.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/deezer.png"
+  },
+  {
+    "id": "utm",
+    "name": "UTM",
+    "description": "Virtualisation d'OS sur macOS et iOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/utm.png"
+  },
+  {
+    "id": "app-cleaner",
+    "name": "AppCleaner",
+    "description": "Désinstalleur avancé d'applications.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png"
+  },
+  {
+    "id": "bluestacks",
+    "name": "BlueStacks",
+    "description": "Émulateur Android pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/bluestacks.png"
+  },
+  {
+    "id": "microsoft-office",
+    "name": "Microsoft Office",
+    "description": "Suite bureautique de Microsoft.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-office.png"
+  },
+  {
+    "id": "adobe-acrobat-reader",
+    "name": "Adobe Acrobat Reader",
+    "description": "Lecteur de fichiers PDF.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-acrobat-reader.png"
+  },
+  {
+    "id": "teamviewer",
+    "name": "TeamViewer",
+    "description": "Logiciel d'accès et de support à distance.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/teamviewer.png"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "description": "Stockage cloud et partage de fichiers.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/dropbox.png"
+  },
+  {
+    "id": "mega",
+    "name": "MEGA Sync",
+    "description": "Application de synchronisation MEGA.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mega-sync.png"
+  },
+  {
+    "id": "openoffice",
+    "name": "OpenOffice",
+    "description": "Suite bureautique open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/openoffice.png"
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "description": "Suite bureautique libre et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/libreoffice.png"
+  },
+  {
+    "id": "keepassx",
+    "name": "KeePassX",
+    "description": "Gestionnaire de mots de passe sécurisé.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keepassx.png"
+  },
+  {
+    "id": "ccleaner",
+    "name": "CCleaner",
+    "description": "Outil d'optimisation et de nettoyage système.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/ccleaner.png"
+  },
+  {
+    "id": "clamxav",
+    "name": "ClamXAV",
+    "description": "Antivirus pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/clamxav.png"
   }
 ]

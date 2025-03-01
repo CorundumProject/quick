@@ -114,7 +114,7 @@ fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
 
             const cardDiv = document.createElement("div");
             cardDiv.classList.add("card", "h-100", "border-3");
-            cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
+            cardDiv.addEventListener("mousedown", () => selectApp(cardDiv, app.id));
 
             const imgContainer = document.createElement("div");
             imgContainer.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "mt-4", "pe-auto");
