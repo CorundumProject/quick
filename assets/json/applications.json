@@ -3,456 +3,684 @@
     "id": "google-chrome",
     "name": "Google Chrome",
     "description": "Navigateur web rapide et sécurisé.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/chrome.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/chrome.png",
+    "developer": "Google",
+    "category": "Navigateur Web",
+    "website": "https://www.google.com/chrome/"
   },
   {
     "id": "firefox",
     "name": "Mozilla Firefox",
     "description": "Navigateur web axé sur la confidentialité et la performance.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png",
+    "developer": "Mozilla",
+    "category": "Navigateur Web",
+    "website": "https://www.mozilla.org/firefox/"
   },
   {
     "id": "visual-studio-code",
     "name": "Visual Studio Code",
     "description": "Éditeur de code léger et puissant.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png",
+    "developer": "Microsoft",
+    "category": "Éditeur de code",
+    "website": "https://code.visualstudio.com/"
   },
   {
     "id": "discord",
     "name": "Discord",
     "description": "Application de communication pour les communautés et les gamers.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/discord.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/discord.png",
+    "developer": "Discord Inc.",
+    "category": "Communication",
+    "website": "https://discord.com/"
   },
   {
     "id": "spotify",
     "name": "Spotify",
     "description": "Service de streaming musical avec des millions de titres.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/spotify.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/spotify.png",
+    "developer": "Spotify Ltd.",
+    "category": "Musique",
+    "website": "https://www.spotify.com/"
   },
   {
     "id": "iina",
     "name": "IINA",
     "description": "Lecteur multimédia moderne et open-source pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/iina.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/iina.png",
+    "developer": "IINA Project",
+    "category": "Lecteur multimédia",
+    "website": "https://iina.io/"
   },
   {
     "id": "postman",
     "name": "Postman",
     "description": "Outil de test et développement d'API.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/postman.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/postman.png",
+    "developer": "Postman Inc.",
+    "category": "Développement",
+    "website": "https://www.postman.com/"
   },
   {
     "id": "docker",
     "name": "Docker",
     "description": "Plateforme de conteneurisation pour le développement et la production.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/docker.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/docker.png",
+    "developer": "Docker Inc.",
+    "category": "Développement",
+    "website": "https://www.docker.com/"
   },
   {
     "id": "notion",
     "name": "Notion",
     "description": "Outil tout-en-un pour la prise de notes, la gestion de projet et la collaboration.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/notion.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/notion.png",
+    "developer": "Notion Labs Inc.",
+    "category": "Productivité",
+    "website": "https://www.notion.so/"
   },
   {
     "id": "1password",
     "name": "1Password",
     "description": "Gestionnaire de mots de passe sécurisé.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/1password.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/1password.png",
+    "developer": "AgileBits Inc.",
+    "category": "Sécurité",
+    "website": "https://1password.com/"
   },
   {
     "id": "slack",
     "name": "Slack",
     "description": "Plateforme de communication collaborative pour les équipes.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/slack.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/slack.png",
+    "developer": "Slack Technologies",
+    "category": "Communication",
+    "website": "https://slack.com/"
   },
   {
     "id": "zoom",
     "name": "Zoom",
     "description": "Application de visioconférence et de réunions en ligne.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/zoom.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/zoom.png",
+    "developer": "Zoom Video Communications",
+    "category": "Communication",
+    "website": "https://zoom.us/"
   },
   {
     "id": "alfred",
     "name": "Alfred",
     "description": "Application de productivité pour lancer des applications et rechercher des fichiers rapidement.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/alfred.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/alfred.png",
+    "developer": "Running with Crayons Ltd.",
+    "category": "Productivité",
+    "website": "https://www.alfredapp.com/"
   },
   {
     "id": "rectangle",
     "name": "Rectangle",
     "description": "Outil de gestion des fenêtres pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/rectangle.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/rectangle.png",
+    "developer": "Ryan Hanson",
+    "category": "Productivité",
+    "website": "https://rectangleapp.com/"
   },
   {
     "id": "the-unarchiver",
     "name": "The Unarchiver",
     "description": "Outil de décompression prenant en charge de nombreux formats d'archives.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/the-unarchiver.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/the-unarchiver.png",
+    "developer": "MacPaw Inc.",
+    "category": "Utilitaire",
+    "website": "https://theunarchiver.com/"
   },
   {
     "id": "vlc",
     "name": "VLC media player",
     "description": "Lecteur multimédia open source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/vlc.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vlc.png",
+    "developer": "VideoLAN",
+    "category": "Lecteur multimédia",
+    "website": "https://www.videolan.org/vlc/"
   },
   {
     "id": "sublime-text",
     "name": "Sublime Text",
     "description": "Éditeur de texte sophistiqué pour le développement et la programmation.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-text.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-text.png",
+    "developer": "Sublime HQ Pty Ltd",
+    "category": "Éditeur de texte",
+    "website": "https://www.sublimetext.com/"
   },
   {
     "id": "inkscape",
     "name": "Inkscape",
     "description": "Logiciel de dessin vectoriel libre et open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/inkscape.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/inkscape.png",
+    "developer": "Inkscape Project",
+    "category": "Graphisme",
+    "website": "https://inkscape.org/"
   },
   {
     "id": "figma",
     "name": "Figma",
     "description": "Outil de design collaboratif et prototypage en ligne.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/figma.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/figma.png",
+    "developer": "Figma Inc.",
+    "category": "Graphisme",
+    "website": "https://www.figma.com/"
   },
   {
     "id": "audacity",
     "name": "Audacity",
     "description": "Logiciel d'édition audio libre et open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/audacity.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/audacity.png",
+    "developer": "Audacity Team",
+    "category": "Audio",
+    "website": "https://www.audacityteam.org/"
   },
   {
     "id": "handbrake",
     "name": "HandBrake",
     "description": "Outil de conversion vidéo open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/handbrake.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/handbrake.png",
+    "developer": "HandBrake Team",
+    "category": "Vidéo",
+    "website": "https://handbrake.fr/"
   },
   {
     "id": "little-snitch",
     "name": "Little Snitch",
     "description": "Outil de gestion de la connexion réseau et de la confidentialité.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/little-snitch.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/little-snitch.png",
+    "developer": "Objective Development Software GmbH",
+    "category": "Sécurité",
+    "website": "https://www.obdev.at/products/littlesnitch/index.html"
   },
   {
     "id": "bitwarden",
     "name": "Bitwarden",
     "description": "Gestionnaire de mots de passe open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/bitwarden.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/bitwarden.png",
+    "developer": "Bitwarden Inc.",
+    "category": "Sécurité",
+    "website": "https://bitwarden.com/"
   },
   {
     "id": "obsidian",
     "name": "Obsidian",
     "description": "Outil de prise de notes et de gestion de connaissances basé sur Markdown.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/obsidian.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/obsidian.png",
+    "developer": "Obsidian.md",
+    "category": "Productivité",
+    "website": "https://obsidian.md/"
   },
   {
     "id": "keyboard-maestro",
     "name": "Keyboard Maestro",
     "description": "Automatisation de tâches et raccourcis clavier pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/keyboard-maestro.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keyboard-maestro.png",
+    "developer": "Stairways Software",
+    "category": "Productivité",
+    "website": "https://www.keyboardmaestro.com/main/"
   },
   {
     "id": "element",
     "name": "Element",
     "description": "Application de communication décentralisée et sécurisée (Matrix).",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/element.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/element.png",
+    "developer": "Element",
+    "category": "Communication",
+    "website": "https://element.io/"
   },
   {
     "id": "gitkraken",
     "name": "GitKraken",
     "description": "Client Git visuel pour la gestion de version.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/gitkraken.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/gitkraken.png",
+    "developer": "Axosoft",
+    "category": "Développement",
+    "website": "https://www.gitkraken.com/"
   },
   {
     "id": "onyx",
     "name": "OnyX",
     "description": "Vérifier la structure des fichiers du système, effectuer diverses opérations de maintenance, etc.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png",
+    "developer": "Titanium Software",
+    "category": "Utilitaire",
+    "website": "https://www.titanium-software.fr/en/onyx.html"
   },
   {
     "id": "brave-browser",
     "name": "Brave",
     "description": "Navigateur web axé sur la confidentialité et la rapidité.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/brave.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/brave.png",
+    "developer": "Brave Software Inc.",
+    "category": "Navigateur Web",
+    "website": "https://brave.com/"
   },
   {
     "id": "opera",
     "name": "Opera",
     "description": "Navigateur web rapide avec bloqueur de pubs intégré.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/opera.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/opera.png",
+    "developer": "Opera Software",
+    "category": "Navigateur Web",
+    "website": "https://www.opera.com/"
   },
   {
     "id": "tor-browser",
     "name": "Tor Browser",
     "description": "Navigateur sécurisé permettant une navigation anonyme.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/tor.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/tor.png",
+    "developer": "The Tor Project",
+    "category": "Navigateur Web",
+    "website": "https://www.torproject.org/"
   },
   {
     "id": "thunderbird",
     "name": "Thunderbird",
     "description": "Client mail open-source et sécurisé.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/thunderbird.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/thunderbird.png",
+    "developer": "Mozilla",
+    "category": "Email",
+    "website": "https://www.thunderbird.net/"
   },
   {
     "id": "gimp",
     "name": "GIMP",
     "description": "Éditeur d'images open-source puissant.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/gimp.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/gimp.png",
+    "developer": "GIMP Team",
+    "category": "Graphisme",
+    "website": "https://www.gimp.org/"
   },
   {
     "id": "krita",
     "name": "Krita",
     "description": "Logiciel de dessin et de peinture numérique open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/krita.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/krita.png",
+    "developer": "Krita Foundation",
+    "category": "Graphisme",
+    "website": "https://krita.org/"
   },
   {
     "id": "blender",
     "name": "Blender",
     "description": "Suite de création 3D open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/blender.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/blender.png",
+    "developer": "Blender Foundation",
+    "category": "3D",
+    "website": "https://www.blender.org/"
   },
   {
     "id": "balenaetcher",
     "name": "balenaEtcher",
     "description": "Outil de création de clés USB bootables.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/etcher.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/etcher.png",
+    "developer": "Balena",
+    "category": "Utilitaire",
+    "website": "https://www.balena.io/etcher/"
   },
   {
     "id": "android-studio",
     "name": "Android Studio",
     "description": "Environnement de développement pour applications Android.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/android-studio.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/android-studio.png",
+    "developer": "Google",
+    "category": "Développement",
+    "website": "https://developer.android.com/studio"
   },
   {
     "id": "jetbrains-toolbox",
     "name": "JetBrains Toolbox",
     "description": "Gestionnaire des outils de développement JetBrains.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/jetbrains-toolbox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/jetbrains-toolbox.png",
+    "developer": "JetBrains",
+    "category": "Développement",
+    "website": "https://www.jetbrains.com/toolbox-app/"
   },
   {
     "id": "pycharm",
     "name": "PyCharm",
     "description": "Environnement de développement Python avancé.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/pycharm.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/pycharm.png",
+    "developer": "JetBrains",
+    "category": "Développement",
+    "website": "https://www.jetbrains.com/pycharm/"
   },
   {
     "id": "webstorm",
     "name": "WebStorm",
     "description": "IDE performant pour le développement JavaScript et TypeScript.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/webstorm.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/webstorm.png",
+    "developer": "JetBrains",
+    "category": "Développement",
+    "website": "https://www.jetbrains.com/webstorm/"
   },
   {
     "id": "phpstorm",
     "name": "PhpStorm",
     "description": "IDE complet pour le développement PHP avec des outils avancés.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/phpstorm.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/phpstorm.png",
+    "developer": "JetBrains",
+    "category": "Développement",
+    "website": "https://www.jetbrains.com/phpstorm/"
   },
   {
     "id": "datagrip",
     "name": "DataGrip",
     "description": "Outil avancé de gestion de bases de données.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/datagrip.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/datagrip.png",
+    "developer": "JetBrains",
+    "category": "Base de données",
+    "website": "https://www.jetbrains.com/datagrip/"
   },
   {
     "id": "mongodb-compass",
     "name": "MongoDB Compass",
     "description": "Interface graphique pour gérer MongoDB.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/mongodb-compass.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mongodb-compass.png",
+    "developer": "MongoDB Inc.",
+    "category": "Base de données",
+    "website": "https://www.mongodb.com/products/compass"
   },
   {
     "id": "cyberduck",
     "name": "Cyberduck",
     "description": "Client FTP/SFTP open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/cyberduck.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/cyberduck.png",
+    "developer": "iterate GmbH",
+    "category": "Utilitaire",
+    "website": "https://cyberduck.io/"
   },
   {
     "id": "transmission",
     "name": "Transmission",
     "description": "Client BitTorrent léger et open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/transmission.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/transmission.png",
+    "developer": "Transmission Project",
+    "category": "Utilitaire",
+    "website": "https://transmissionbt.com/"
   },
   {
     "id": "steam",
     "name": "Steam",
     "description": "Plateforme de jeux vidéo en ligne.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/steam.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/steam.png",
+    "developer": "Valve Corporation",
+    "category": "Jeux",
+    "website": "https://store.steampowered.com/"
   },
   {
     "id": "openemu",
     "name": "OpenEmu",
     "description": "Émulateur multi-consoles pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/openemu.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/openemu.png",
+    "developer": "OpenEmu Team",
+    "category": "Émulateur",
+    "website": "https://openemu.org/"
   },
   {
     "id": "virtualbox",
     "name": "VirtualBox",
     "description": "Solution de virtualisation gratuite et open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/virtualbox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/virtualbox.png",
+    "developer": "Oracle Corporation",
+    "category": "Virtualisation",
+    "website": "https://www.virtualbox.org/"
   },
   {
     "id": "parallels",
     "name": "Parallels Desktop",
     "description": "Logiciel de virtualisation pour exécuter Windows sur Mac.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/parallels.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/parallels.png",
+    "developer": "Parallels International GmbH",
+    "category": "Virtualisation",
+    "website": "https://www.parallels.com/products/desktop/"
   },
   {
     "id": "vmware-fusion",
     "name": "VMware Fusion",
     "description": "Solution de virtualisation avancée pour exécuter des systèmes d'exploitation sur macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/vmware-fusion.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vmware-fusion.png",
+    "developer": "VMware Inc.",
+    "category": "Virtualisation",
+    "website": "https://www.vmware.com/products/fusion.html"
   },
   {
     "id": "disk-drill",
     "name": "Disk Drill",
     "description": "Logiciel de récupération de données pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/disk-drill.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/disk-drill.png",
+    "developer": "CleverFiles",
+    "category": "Utilitaire",
+    "website": "https://www.cleverfiles.com/disk-drill-mac.html"
   },
   {
     "id": "obs",
     "name": "OBS Studio",
     "description": "Logiciel de streaming et d'enregistrement vidéo open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/obs-studio.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/obs-studio.png",
+    "developer": "OBS Project",
+    "category": "Vidéo",
+    "website": "https://obsproject.com/"
   },
   {
     "id": "darktable",
     "name": "Darktable",
     "description": "Logiciel de traitement photo open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/darktable.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/darktable.png",
+    "developer": "Darktable Team",
+    "category": "Photo",
+    "website": "https://www.darktable.org/"
   },
   {
     "id": "shotcut",
     "name": "Shotcut",
     "description": "Éditeur vidéo open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/shotcut.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/shotcut.png",
+    "developer": "Meltytech, LLC",
+    "category": "Vidéo",
+    "website": "https://shotcut.org/"
   },
   {
     "id": "musescore",
     "name": "MuseScore",
     "description": "Logiciel de notation musicale open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/musescore.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/musescore.png",
+    "developer": "MuseScore BVBA",
+    "category": "Musique",
+    "website": "https://musescore.org/"
   },
   {
     "id": "godot",
     "name": "Godot",
     "description": "Moteur de jeu open-source pour la 2D et la 3D.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/godot.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/godot.png",
+    "developer": "Godot Engine",
+    "category": "Développement de Jeux",
+    "website": "https://godotengine.org/"
   },
   {
     "id": "wireshark",
     "name": "Wireshark",
     "description": "Analyseur de protocoles réseau open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png",
+    "developer": "Wireshark Foundation",
+    "category": "Réseau",
+    "website": "https://www.wireshark.org/"
   },
   {
     "id": "unity",
     "name": "Unity",
     "description": "Moteur de jeu populaire pour le développement 2D et 3D.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/unity.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/unity.png",
+    "developer": "Unity Technologies",
+    "category": "Développement de Jeux",
+    "website": "https://unity.com/"
   },
   {
     "id": "epic-games",
     "name": "Epic Games Launcher",
     "description": "Plateforme de téléchargement et gestion des jeux Epic Games.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/epic-games-launcher.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/epic-games-launcher.png",
+    "developer": "Epic Games",
+    "category": "Jeux",
+    "website": "https://www.epicgames.com/store/en-US/download"
   },
   {
     "id": "minecraft",
     "name": "Minecraft",
     "description": "Jeu de construction et d'exploration en monde ouvert.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/minecraft.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/minecraft.png",
+    "developer": "Mojang Studios",
+    "category": "Jeux",
+    "website": "https://www.minecraft.net/"
   },
   {
     "id": "minetest",
     "name": "Minetest",
     "description": "Alternative open-source à Minecraft.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/minetest.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/minetest.png",
+    "developer": "Minetest Development Team",
+    "category": "Jeux",
+    "website": "https://www.minetest.net/"
   },
   {
     "id": "roblox",
     "name": "Roblox",
     "description": "Plateforme de création et de jeu en ligne.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/roblox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/roblox.png",
+    "developer": "Roblox Corporation",
+    "category": "Jeux",
+    "website": "https://www.roblox.com/"
   },
   {
     "id": "deezer",
     "name": "Deezer",
     "description": "Service de streaming musical.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/deezer.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/deezer.png",
+    "developer": "Deezer S.A.",
+    "category": "Musique",
+    "website": "https://www.deezer.com/"
   },
   {
     "id": "utm",
     "name": "UTM",
     "description": "Virtualisation d'OS sur macOS et iOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/utm.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/utm.png",
+    "developer": "UTM",
+    "category": "Virtualisation",
+    "website": "https://mac.getutm.app/"
   },
   {
     "id": "app-cleaner",
     "name": "AppCleaner",
     "description": "Désinstalleur avancé d'applications.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png",
+    "developer": "FreeMacSoft",
+    "category": "Utilitaire",
+    "website": "https://freemacsoft.net/appcleaner/"
   },
   {
     "id": "bluestacks",
     "name": "BlueStacks",
     "description": "Émulateur Android pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/bluestacks.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/bluestacks.png",
+    "developer": "BlueStacks Inc.",
+    "category": "Émulateur",
+    "website": "https://www.bluestacks.com/"
   },
   {
     "id": "microsoft-office",
     "name": "Microsoft Office",
     "description": "Suite bureautique de Microsoft.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-office.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-office.png",
+    "developer": "Microsoft",
+    "category": "Bureautique",
+    "website": "https://www.microsoft.com/microsoft-365"
   },
   {
     "id": "adobe-acrobat-reader",
     "name": "Adobe Acrobat Reader",
     "description": "Lecteur de fichiers PDF.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-acrobat-reader.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-acrobat-reader.png",
+    "developer": "Adobe Inc.",
+    "category": "Utilitaire",
+    "website": "https://acrobat.adobe.com/fr/fr/acrobat/pdf-reader.html"
   },
   {
     "id": "teamviewer",
     "name": "TeamViewer",
     "description": "Logiciel d'accès et de support à distance.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/teamviewer.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/teamviewer.png",
+    "developer": "TeamViewer AG",
+    "category": "Utilitaire",
+    "website": "https://www.teamviewer.com/"
   },
   {
     "id": "dropbox",
     "name": "Dropbox",
     "description": "Stockage cloud et partage de fichiers.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/dropbox.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/dropbox.png",
+    "developer": "Dropbox Inc.",
+    "category": "Stockage",
+    "website": "https://www.dropbox.com/"
   },
   {
     "id": "mega",
     "name": "MEGA Sync",
     "description": "Application de synchronisation MEGA.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/mega-sync.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mega-sync.png",
+    "developer": "Mega Limited",
+    "category": "Stockage",
+    "website": "https://mega.io/sync"
   },
   {
     "id": "openoffice",
     "name": "OpenOffice",
     "description": "Suite bureautique open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/openoffice.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/openoffice.png",
+    "developer": "Apache Software Foundation",
+    "category": "Bureautique",
+    "website": "https://www.openoffice.org/"
   },
   {
     "id": "libreoffice",
     "name": "LibreOffice",
     "description": "Suite bureautique libre et open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/libreoffice.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/libreoffice.png",
+    "developer": "The Document Foundation",
+    "category": "Bureautique",
+    "website": "https://www.libreoffice.org/"
   },
   {
     "id": "keepassx",
     "name": "KeePassX",
     "description": "Gestionnaire de mots de passe sécurisé.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/keepassx.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keepassx.png",
+    "developer": "KeePassX Team",
+    "category": "Sécurité",
+    "website": "https://www.keepassx.org/"
   },
   {
     "id": "ccleaner",
     "name": "CCleaner",
     "description": "Outil d'optimisation et de nettoyage système.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/ccleaner.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/ccleaner.png",
+    "developer": "Piriform Ltd",
+    "category": "Utilitaire",
+    "website": "https://www.ccleaner.com/"
   },
   {
     "id": "clamxav",
     "name": "ClamXAV",
     "description": "Antivirus pour macOS.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/clamxav.png"
+    "icon": "https://corundumproject.github.io/quick/assets/icons/clamxav.png",
+    "developer": "Canimaan Software Ltd",
+    "category": "Sécurité",
+    "website": "https://www.clamxav.com/"
   }
 ]
