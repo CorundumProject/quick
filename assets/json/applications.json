@@ -682,5 +682,203 @@
     "developer": "Canimaan Software Ltd",
     "category": "Sécurité",
     "website": "https://www.clamxav.com/"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "description": "Analyseur de protocoles réseau open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png",
+    "developer": "Wireshark Foundation",
+    "category": "Réseau",
+    "website": "https://www.wireshark.org/"
+  },
+  {
+    "id": "arc",
+    "name": "Arc",
+    "description": "Navigateur innovant avec une nouvelle approche du web.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/arc.png",
+    "developer": "The Browser Company",
+    "category": "Navigateur Web",
+    "website": "https://arc.net/"
+  },
+  {
+    "id": "mamp",
+    "name": "MAMP",
+    "description": "Environnement de développement local pour PHP et MySQL.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mamp.png",
+    "developer": "MAMP GmbH",
+    "category": "Développement",
+    "website": "https://www.mamp.info/"
+  },
+  {
+    "id": "github",
+    "name": "GitHub Desktop",
+    "description": "Client Git visuel officiel de GitHub.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/github-desktop.png",
+    "developer": "GitHub",
+    "category": "Développement",
+    "website": "https://desktop.github.com/"
+  },
+  {
+    "id": "carbon-copy-cloner",
+    "name": "Carbon Copy Cloner",
+    "description": "Solution avancée de sauvegarde et clonage de disque.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/carbon-copy-cloner.png",
+    "developer": "Bombich Software",
+    "category": "Utilitaire",
+    "website": "https://bombich.com/"
+  },
+  {
+    "id": "intellij-idea",
+    "name": "IntelliJ IDEA",
+    "description": "IDE Java avancé et intelligent.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/intellij-idea.png",
+    "developer": "JetBrains",
+    "category": "Développement",
+    "website": "https://www.jetbrains.com/idea/"
+  },
+  {
+    "id": "mactracker",
+    "name": "MacTracker",
+    "description": "Base de données détaillée sur les produits Apple.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mactracker.png",
+    "developer": "Ian Page",
+    "category": "Utilitaire",
+    "website": "https://mactracker.ca/"
+  },
+  {
+    "id": "malwarebytes",
+    "name": "Malwarebytes",
+    "description": "Antivirus et protection contre les logiciels malveillants.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/malwarebytes.png",
+    "developer": "Malwarebytes Inc.",
+    "category": "Sécurité",
+    "website": "https://www.malwarebytes.com/"
+  },
+  {
+    "id": "avast-security",
+    "name": "Avast",
+    "description": "Antivirus et sécurité pour Mac.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/avast.png",
+    "developer": "Avast Software",
+    "category": "Sécurité",
+    "website": "https://www.avast.com/"
+  },
+  {
+    "id": "mpv",
+    "name": "MPV",
+    "description": "Lecteur multimédia léger et puissant.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mpv.png",
+    "developer": "MPV Team",
+    "category": "Multimédia",
+    "website": "https://mpv.io/"
+  },
+  {
+    "id": "coconutbattery",
+    "name": "coconutBattery",
+    "description": "Surveille l'état de la batterie des MacBook et iPhone.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/coconutbattery.png",
+    "developer": "coconut-flavour",
+    "category": "Utilitaire",
+    "website": "https://www.coconut-flavour.com/coconutbattery/"
+  },
+  {
+    "id": "cleanmymac",
+    "name": "CleanMyMac",
+    "description": "Outil de nettoyage et d'optimisation pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/cleanmymac.png",
+    "developer": "MacPaw",
+    "category": "Utilitaire",
+    "website": "https://macpaw.com/cleanmymac"
+  },
+  {
+    "id": "skim",
+    "name": "Skim",
+    "description": "Lecteur et annotateur de fichiers PDF open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/skim.png",
+    "developer": "Skim Team",
+    "category": "Productivité",
+    "website": "https://skim-app.sourceforge.io/"
+  },
+  {
+    "id": "keka",
+    "name": "Keka",
+    "description": "Outil de compression et décompression de fichiers.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keka.png",
+    "developer": "Joaquín Moreno",
+    "category": "Utilitaire",
+    "website": "https://www.keka.io/"
+  },
+  {
+    "id": "android-file-transfer",
+    "name": "Android File Transfer",
+    "description": "Transfert de fichiers entre macOS et appareils Android.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/android-file-transfer.png",
+    "developer": "Google",
+    "category": "Utilitaire",
+    "website": "https://www.android.com/filetransfer/"
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qBittorrent",
+    "description": "Client BitTorrent open-source et sans publicité.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/qbittorrent.png",
+    "developer": "qBittorrent Team",
+    "category": "Téléchargement",
+    "website": "https://www.qbittorrent.org/"
+  },
+  {
+    "id": "fluid",
+    "name": "Fluid",
+    "description": "Convertit des sites web en applications macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/fluid.png",
+    "developer": "Celestial Teapot",
+    "category": "Utilitaire",
+    "website": "https://fluidapp.com/"
+  },
+  {
+    "id": "brackets",
+    "name": "Brackets",
+    "description": "Éditeur de code open-source conçu pour le web.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/brackets.png",
+    "developer": "Adobe (Projet abandonné)",
+    "category": "Développement",
+    "website": "https://brackets.io/"
+  },
+  {
+    "id": "atom",
+    "name": "Atom",
+    "description": "Éditeur de texte hackable et open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/atom.png",
+    "developer": "GitHub (Projet abandonné)",
+    "category": "Développement",
+    "website": "https://atom.io/"
+  },
+  {
+    "id": "vivaldi",
+    "name": "Vivaldi",
+    "description": "Navigateur web hautement personnalisable.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/vivaldi.png",
+    "developer": "Vivaldi Technologies",
+    "category": "Navigateur Web",
+    "website": "https://vivaldi.com/"
+  },
+  {
+    "id": "altserver",
+    "name": "AltServer",
+    "description": "Outil permettant d'installer AltStore sur iOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/altserver.png",
+    "developer": "Riley Testut",
+    "category": "Utilitaire",
+    "website": "https://altstore.io/"
+  },
+  {
+    "id": "ti-connect-ce",
+    "name": "TI Connect CE",
+    "description": "Gestion et transfert de fichiers pour les calculatrices Texas Instruments.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/ti-connect-ce.png",
+    "developer": "Texas Instruments",
+    "category": "Éducation",
+    "website": "https://education.ti.com/fr/produits/logiciel-ordinateur/ti-connect-ce-sw"
   }
-]
+]  

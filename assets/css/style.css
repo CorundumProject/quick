@@ -36,6 +36,10 @@
     cursor: pointer;
 }
 
+.actions .bi {
+    cursor: pointer;
+}
+
 @keyframes displayError {
     0% {
         display: block;

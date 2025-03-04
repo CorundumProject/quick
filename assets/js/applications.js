@@ -6,25 +6,7 @@ const modal = document.querySelector('#installModal');
 const helpButton = document.querySelector(".help");
 const outputCommand = document.querySelector(".command");
 const status = document.querySelector(".status");
-
-// Vérifier la préférence de thème de l'utilisateur (clair ou sombre)
-const themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-// Fonction pour appliquer le thème
-function applyTheme() {
-    if (themeMediaQuery.matches) {
-        document.body.setAttribute('data-bs-theme', 'dark');
-    } else {
-        document.body.setAttribute('data-bs-theme', 'light');
-    }
-}
-
-// Appliquer immédiatement le thème en fonction de la préférence de l'utilisateur
-applyTheme();
-
-// Ajouter un écouteur d'événement pour détecter les changements de préférence de thème
-themeMediaQuery.addEventListener('change', applyTheme);
-
+let isDisplayed = false;
 
 // Sélectionner les applications à installer
 function selectApp(card, appId) {
@@ -131,14 +113,24 @@ fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
             cardTitle.classList.add("card-title", "text-center");
             cardTitle.textContent = app.name;
 
+            const cardSubtitle = document.createElement("h6");
+            cardSubtitle.classList.add("card-subtitle", "text-center", "text-muted", "mt-2", "mb-2");
+            cardSubtitle.textContent = app.category;
+
             const cardText = document.createElement("p");
             cardText.classList.add("card-text", "text-center", "text-muted");
             cardText.textContent = app.description;
 
+            const cardInformation = document.createElement("a");
+            cardInformation.classList.add("card-link");
+            cardInformation.innerHTML = "<i class='bi bi-info-circle-fill'></i>";
+
             // Assembler les éléments
             imgContainer.appendChild(img);
             cardBody.appendChild(cardTitle);
-            cardBody.appendChild(cardText);
+            // cardBody.appendChild(cardSubtitle);
+            // cardBody.appendChild(cardText);
+            // cardBody.appendChild(cardInformation);
             cardDiv.appendChild(imgContainer);
             cardDiv.appendChild(cardBody);
             colDiv.appendChild(cardDiv);
