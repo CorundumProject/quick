@@ -4,3 +4,6 @@
 
 # Fichiers système
 .DS_Store
+
+# Fichiers inutilisés
+assets/old-icons

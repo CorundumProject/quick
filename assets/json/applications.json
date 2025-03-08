@@ -880,5 +880,14 @@
     "developer": "Texas Instruments",
     "category": "Éducation",
     "website": "https://education.ti.com/fr/produits/logiciel-ordinateur/ti-connect-ce-sw"
+  },
+  {
+    "id": "packages",
+    "name": "Packages",
+    "description": "Outil permettant de créer des installateurs pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/packages.png",
+    "developer": "WhiteBox",
+    "category": "Développement",
+    "website": "https://s.sudre.free.fr/Software/Packages/about.html"
   }
 ]  
