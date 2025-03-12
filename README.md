@@ -1,6 +1,13 @@
-# ⚡️ Quick
+<p align="center">
+  <img src="assets/img/logo.png">
+</p>
 
-**Quick** permet aux utilisateurs de télécharger des applications à la manière de [macapps](https://macapps.link) via [brew](https://brew.sh).
+<h1 align="center">Quick</h1>
+
+
+<p align="center"><strong>Quick</strong> permet aux utilisateurs de télécharger des applications à la manière de <a href="https://macapps.link">macapps</a> via <a href="https://brew.sh">brew</a></p>
+
+
 
 ![capture](assets/img/capture.png)
 
@@ -19,7 +26,7 @@ Rendez-vous simplement sur [cette page](https://corundumproject.github.io/quick)
 
 Les noms de logiciels et icônes de logiciels affichés sont liés à leurs marques.
 
-Les icônes ont été récupérés, pour la plupart, sur [Wikipédia](https://wikipedia.org) et [Wikimedia](https://wikimedia.org).
+Les icônes ont été récupérées directement dans les fichiers de l'application (ou sont installateur dans certains cas).
 
 ## 💾 Licence
 
