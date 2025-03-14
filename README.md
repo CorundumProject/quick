@@ -2,7 +2,7 @@
   <img src="assets/img/logo.png">
 </p>
 
-<h1 align="center">Quick</h1>
+<h1 align="center">Corundum Quick</h1>
 
 
 <p align="center"><strong>Quick</strong> permet aux utilisateurs de télécharger des applications à la manière de <a href="https://macapps.link">macapps</a> via <a href="https://brew.sh">brew</a></p>
