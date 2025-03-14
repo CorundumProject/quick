@@ -5,7 +5,7 @@
 <h1 align="center">Corundum Quick</h1>
 
 
-<p align="center"><strong>Quick</strong> permet aux utilisateurs de télécharger des applications à la manière de <a href="https://macapps.link">macapps</a> via <a href="https://brew.sh">brew</a></p>
+<p align="center"><strong>Corundum Quick</strong> permet aux utilisateurs de télécharger des applications à la manière de <a href="https://macapps.link">macapps</a> via <a href="https://brew.sh">brew</a></p>
 
 
 
