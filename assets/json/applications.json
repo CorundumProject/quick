@@ -889,5 +889,32 @@
     "developer": "WhiteBox",
     "category": "Développement",
     "website": "https://s.sudre.free.fr/Software/Packages/about.html"
+  },
+  {
+    "id": "codeedit",
+    "name": "CodeEdit",
+    "description": "Éditeur de code open-source pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/codeedit.png",
+    "developer": "CodeEdit Team",
+    "category": "Développement",
+    "website": "https://github.com/CodeEditApp/CodeEdit"
+  },
+  {
+    "id": "keepingyouawake",
+    "name": "KeepingYouAwake",
+    "description": "Empêche votre Mac de se mettre en veille.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keepingyouawake.png",
+    "developer": "Tomasz Janeczko",
+    "category": "Utilitaires",
+    "website": "https://keepingyouawake.app"
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "description": "Émulateur de jeux GameCube et Wii.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/dolphin.png",
+    "developer": "Dolphin Emulator Project",
+    "category": "Jeux",
+    "website": "https://dolphin-emu.org"
   }
 ]  
