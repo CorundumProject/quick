@@ -191,12 +191,6 @@ function handleKeyPress(event) {
         outputCommand.textContent = command;
         generateInstallCommand();
     }
-<<<<<<< HEAD
-=======
-    if (event.key === "a" || event.key === "A") {
-        window.open("http://corundum.gitbook.io/quick" , '_blank');
-    }
->>>>>>> 44a50d38e6dfce823175cf593d2e02db0c58774f
 }
 
 // Activer/Désactiver les événements clavier
