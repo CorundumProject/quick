@@ -185,6 +185,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Gestion des événements clavier
 function handleKeyPress(event) {
+    // Ignorer les événements clavier si la barre de recherche est utilisée
+    if (searchInput === document.activeElement) return;
     if (event.key === "i" || event.key === "I") {
         // Générer et afficher la commande
         const command = "brew install --cask " + selectedApplications.join(" ");
@@ -194,23 +196,4 @@ function handleKeyPress(event) {
 }
 
 // Activer/Désactiver les événements clavier
-function enableKeyListeners() {
-    document.addEventListener("keydown", handleKeyPress);
-}
-
-function disableKeyListeners() {
-    document.removeEventListener("keydown", handleKeyPress);
-}
-
-// Écoute des événements de la barre de recherche
-searchInput.addEventListener("focus", () => {
-    disableKeyListeners();
-});
-
-searchInput.addEventListener("blur", () => {
-    enableKeyListeners();
-});
-
-
-// Activation initiale des écouteurs de touches
-enableKeyListeners();
+document.addEventListener("keydown", handleKeyPress);
