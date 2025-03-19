@@ -24,7 +24,7 @@
     text-align: right;
 }
 
-.card {
+#applications-container .card {
     cursor: pointer;
 }
 
