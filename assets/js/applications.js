@@ -40,6 +40,7 @@ function appDetails(appId) {
                             <h5 class="card-title text-center">${app.name}</h5>
                             <h6 class="card-subtitle mb-2 text-muted text-center">${app.category}</h6>
                             <p class="card-text text-center">${app.description}</p>
+                            <p class="card-text text-center">Vous devez être sur macOS ${app.version}</p>
                             <a href="${app.website}" target="_blank" class="btn btn-primary">Site officiel</a>
                             <button id="back-button" class="btn btn-secondary">Revenir en arrière</button>
                         </div>

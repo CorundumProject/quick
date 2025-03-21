@@ -1,39 +1,47 @@
 [
   {
     "id": "google-chrome",
+    "id-beta": "google-chrome@beta",
     "name": "Google Chrome",
     "description": "Navigateur web rapide et sécurisé.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/chrome.png",
     "developer": "Google",
     "category": "Navigateur Web",
-    "website": "https://www.google.com/chrome/"
+    "website": "https://www.google.com/chrome/",
+    "version": "11+"
   },
   {
     "id": "firefox",
+    "id-beta": "firefox@beta",
     "name": "Mozilla Firefox",
     "description": "Navigateur web axé sur la confidentialité et la performance.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png",
     "developer": "Mozilla",
     "category": "Navigateur Web",
-    "website": "https://www.mozilla.org/firefox/"
+    "website": "https://www.mozilla.org/firefox/",
+    "version": "10.15+"
   },
   {
     "id": "visual-studio-code",
+    "id-beta": "visual-studio-code@insiders",
     "name": "Visual Studio Code",
     "description": "Éditeur de code léger et puissant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png",
     "developer": "Microsoft",
     "category": "Éditeur de code",
-    "website": "https://code.visualstudio.com/"
+    "website": "https://code.visualstudio.com/",
+    "version": "10.15+"
   },
   {
     "id": "discord",
+    "id-beta": "discord@development",
     "name": "Discord",
     "description": "Application de communication pour les communautés et les gamers.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/discord.png",
     "developer": "Discord Inc.",
     "category": "Communication",
-    "website": "https://discord.com/"
+    "website": "https://discord.com/",
+    "version": "10.15+"
   },
   {
     "id": "spotify",
@@ -42,7 +50,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/spotify.png",
     "developer": "Spotify Ltd.",
     "category": "Musique",
-    "website": "https://www.spotify.com/"
+    "website": "https://www.spotify.com/",
+    "version": "11+"
   },
   {
     "id": "iina",
@@ -51,16 +60,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/iina.png",
     "developer": "IINA Project",
     "category": "Lecteur multimédia",
-    "website": "https://iina.io/"
+    "website": "https://iina.io/",
+    "version": "10.13+"
   },
   {
     "id": "postman",
+    "id-beta": "postman@canary",
     "name": "Postman",
     "description": "Outil de test et développement d'API.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/postman.png",
     "developer": "Postman Inc.",
     "category": "Développement",
-    "website": "https://www.postman.com/"
+    "website": "https://www.postman.com/",
+    "version": "10.15+"
   },
   {
     "id": "docker",
@@ -69,7 +81,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/docker.png",
     "developer": "Docker Inc.",
     "category": "Développement",
-    "website": "https://www.docker.com/"
+    "website": "https://www.docker.com/",
+    "version": "12+"
   },
   {
     "id": "notion",
@@ -78,25 +91,30 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/notion.png",
     "developer": "Notion Labs Inc.",
     "category": "Productivité",
-    "website": "https://www.notion.so/"
+    "website": "https://www.notion.so/",
+    "version": "11+"
   },
   {
     "id": "1password",
+    "id-beta": "1password@beta",
     "name": "1Password",
     "description": "Gestionnaire de mots de passe sécurisé.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/1password.png",
     "developer": "AgileBits Inc.",
     "category": "Sécurité",
-    "website": "https://1password.com/"
+    "website": "https://1password.com/",
+    "version": "12+"
   },
   {
     "id": "slack",
+    "id-beta": "slack@beta",
     "name": "Slack",
     "description": "Plateforme de communication collaborative pour les équipes.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/slack.png",
     "developer": "Slack Technologies",
     "category": "Communication",
-    "website": "https://slack.com/"
+    "website": "https://slack.com/",
+    "version": "10.15+"
   },
   {
     "id": "zoom",
@@ -105,7 +123,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/zoom.png",
     "developer": "Zoom Video Communications",
     "category": "Communication",
-    "website": "https://zoom.us/"
+    "website": "https://zoom.us/",
+    "version": "10.11+"
   },
   {
     "id": "alfred",
@@ -114,7 +133,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/alfred.png",
     "developer": "Running with Crayons Ltd.",
     "category": "Productivité",
-    "website": "https://www.alfredapp.com/"
+    "website": "https://www.alfredapp.com/",
+    "version": "10.14+"
   },
   {
     "id": "rectangle",
@@ -123,7 +143,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/rectangle.png",
     "developer": "Ryan Hanson",
     "category": "Productivité",
-    "website": "https://rectangleapp.com/"
+    "website": "https://rectangleapp.com/",
+    "version": "10.15+"
   },
   {
     "id": "the-unarchiver",
@@ -132,25 +153,30 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/the-unarchiver.png",
     "developer": "MacPaw Inc.",
     "category": "Utilitaire",
-    "website": "https://theunarchiver.com/"
+    "website": "https://theunarchiver.com/",
+    "version": "10.13+"
   },
   {
     "id": "vlc",
+    "id-beta": "vlc@nightly",
     "name": "VLC media player",
     "description": "Lecteur multimédia open source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vlc.png",
     "developer": "VideoLAN",
     "category": "Lecteur multimédia",
-    "website": "https://www.videolan.org/vlc/"
+    "website": "https://www.videolan.org/vlc/",
+    "version": "10.11+"
   },
   {
     "id": "sublime-text",
+    "id-beta": "sublime-text@dev",
     "name": "Sublime Text",
     "description": "Éditeur de texte sophistiqué pour le développement et la programmation.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-text.png",
     "developer": "Sublime HQ Pty Ltd",
     "category": "Éditeur de texte",
-    "website": "https://www.sublimetext.com/"
+    "website": "https://www.sublimetext.com/",
+    "version": "10.11+"
   },
   {
     "id": "inkscape",
@@ -159,16 +185,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/inkscape.png",
     "developer": "Inkscape Project",
     "category": "Graphisme",
-    "website": "https://inkscape.org/"
+    "website": "https://inkscape.org/",
+    "version": "10.13+"
   },
   {
     "id": "figma",
+    "id-beta": "figma@beta",
     "name": "Figma",
     "description": "Outil de design collaboratif et prototypage en ligne.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/figma.png",
     "developer": "Figma Inc.",
     "category": "Graphisme",
-    "website": "https://www.figma.com/"
+    "website": "https://www.figma.com/",
+    "version": "10.12+"
   },
   {
     "id": "audacity",
@@ -177,7 +206,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/audacity.png",
     "developer": "Audacity Team",
     "category": "Audio",
-    "website": "https://www.audacityteam.org/"
+    "website": "https://www.audacityteam.org/",
+    "version": "10.13+"
   },
   {
     "id": "handbrake",
@@ -186,7 +216,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/handbrake.png",
     "developer": "HandBrake Team",
     "category": "Vidéo",
-    "website": "https://handbrake.fr/"
+    "website": "https://handbrake.fr/",
+    "version": "10.13+"
   },
   {
     "id": "little-snitch",
@@ -195,7 +226,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/little-snitch.png",
     "developer": "Objective Development Software GmbH",
     "category": "Sécurité",
-    "website": "https://www.obdev.at/products/littlesnitch/index.html"
+    "website": "https://www.obdev.at/products/littlesnitch/index.html",
+    "version": "14+"
   },
   {
     "id": "bitwarden",
@@ -204,7 +236,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/bitwarden.png",
     "developer": "Bitwarden Inc.",
     "category": "Sécurité",
-    "website": "https://bitwarden.com/"
+    "website": "https://bitwarden.com/",
+    "version": "10.15+"
   },
   {
     "id": "obsidian",
@@ -213,7 +246,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/obsidian.png",
     "developer": "Obsidian.md",
     "category": "Productivité",
-    "website": "https://obsidian.md/"
+    "website": "https://obsidian.md/",
+    "version": "10.15+"
   },
   {
     "id": "keyboard-maestro",
@@ -222,16 +256,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/keyboard-maestro.png",
     "developer": "Stairways Software",
     "category": "Productivité",
-    "website": "https://www.keyboardmaestro.com/main/"
+    "website": "https://www.keyboardmaestro.com/main/",
+    "version": "10.13+"
   },
   {
     "id": "element",
+    "id-beta": "element@nightly",
     "name": "Element",
     "description": "Application de communication décentralisée et sécurisée (Matrix).",
     "icon": "https://corundumproject.github.io/quick/assets/icons/element.png",
     "developer": "Element",
     "category": "Communication",
-    "website": "https://element.io/"
+    "website": "https://element.io/",
+    "version": "11+"
   },
   {
     "id": "gitkraken",
@@ -240,7 +277,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/gitkraken.png",
     "developer": "Axosoft",
     "category": "Développement",
-    "website": "https://www.gitkraken.com/"
+    "website": "https://www.gitkraken.com/",
+    "version": "10.11+"
   },
   {
     "id": "onyx",
@@ -249,16 +287,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png",
     "developer": "Titanium Software",
     "category": "Utilitaire",
-    "website": "https://www.titanium-software.fr/en/onyx.html"
+    "website": "https://www.titanium-software.fr/en/onyx.html",
+    "version": "10.11+"
   },
   {
     "id": "brave-browser",
+    "id-beta": "brave-browser@beta",
     "name": "Brave",
     "description": "Navigateur web axé sur la confidentialité et la rapidité.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/brave.png",
     "developer": "Brave Software Inc.",
     "category": "Navigateur Web",
-    "website": "https://brave.com/"
+    "website": "https://brave.com/",
+    "version": "11+"
   },
   {
     "id": "opera",
@@ -267,34 +308,51 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/opera.png",
     "developer": "Opera Software",
     "category": "Navigateur Web",
-    "website": "https://www.opera.com/"
+    "website": "https://www.opera.com/",
+    "version": "11+"
+  },
+  {
+    "id": "opera-gx",
+    "name": "Opera GX",
+    "description": "Navigateur web orienté gaming avec bloqueur de pubs intégré.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/opera-gx.png",
+    "developer": "Opera Software",
+    "category": "Navigateur Web",
+    "website": "http://opera.com/gx",
+    "version": "11+"
   },
   {
     "id": "tor-browser",
+    "id-beta": "tor-browser@alpha",
     "name": "Tor Browser",
     "description": "Navigateur sécurisé permettant une navigation anonyme.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/tor.png",
     "developer": "The Tor Project",
     "category": "Navigateur Web",
-    "website": "https://www.torproject.org/"
+    "website": "https://www.torproject.org/",
+    "version": "10.15+"
   },
   {
     "id": "thunderbird",
+    "id-beta": "thunderbird@beta",
     "name": "Thunderbird",
     "description": "Client mail open-source et sécurisé.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/thunderbird.png",
     "developer": "Mozilla",
     "category": "Email",
-    "website": "https://www.thunderbird.net/"
+    "website": "https://www.thunderbird.net/",
+    "version": "10.15+"
   },
   {
     "id": "gimp",
+    "id-beta": "gimp@dev",
     "name": "GIMP",
     "description": "Éditeur d'images open-source puissant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/gimp.png",
     "developer": "GIMP Team",
     "category": "Graphisme",
-    "website": "https://www.gimp.org/"
+    "website": "https://www.gimp.org/",
+    "version": "10.13+"
   },
   {
     "id": "krita",
@@ -303,7 +361,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/krita.png",
     "developer": "Krita Foundation",
     "category": "Graphisme",
-    "website": "https://krita.org/"
+    "website": "https://krita.org/",
+    "version": "10.13+"
   },
   {
     "id": "blender",
@@ -312,7 +371,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/blender.png",
     "developer": "Blender Foundation",
     "category": "3D",
-    "website": "https://www.blender.org/"
+    "website": "https://www.blender.org/",
+    "version": "11+"
   },
   {
     "id": "balenaetcher",
@@ -321,16 +381,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/etcher.png",
     "developer": "Balena",
     "category": "Utilitaire",
-    "website": "https://www.balena.io/etcher/"
+    "website": "https://www.balena.io/etcher/",
+    "version": "10.15+"
   },
   {
     "id": "android-studio",
+    "id-beta": "android-studio-preview@beta",
     "name": "Android Studio",
     "description": "Environnement de développement pour applications Android.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/android-studio.png",
     "developer": "Google",
     "category": "Développement",
-    "website": "https://developer.android.com/studio"
+    "website": "https://developer.android.com/studio",
+    "version": "10.13+"
   },
   {
     "id": "jetbrains-toolbox",
@@ -339,7 +402,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/jetbrains-toolbox.png",
     "developer": "JetBrains",
     "category": "Développement",
-    "website": "https://www.jetbrains.com/toolbox-app/"
+    "website": "https://www.jetbrains.com/toolbox-app/",
+    "version": "10.14+"
   },
   {
     "id": "pycharm",
@@ -348,7 +412,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/pycharm.png",
     "developer": "JetBrains",
     "category": "Développement",
-    "website": "https://www.jetbrains.com/pycharm/"
+    "website": "https://www.jetbrains.com/pycharm/",
+    "version": "10.13+"
   },
   {
     "id": "webstorm",
@@ -357,7 +422,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/webstorm.png",
     "developer": "JetBrains",
     "category": "Développement",
-    "website": "https://www.jetbrains.com/webstorm/"
+    "website": "https://www.jetbrains.com/webstorm/",
+    "version": "10.13+"
   },
   {
     "id": "phpstorm",
@@ -366,7 +432,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/phpstorm.png",
     "developer": "JetBrains",
     "category": "Développement",
-    "website": "https://www.jetbrains.com/phpstorm/"
+    "website": "https://www.jetbrains.com/phpstorm/",
+    "version": "10.13+"
   },
   {
     "id": "datagrip",
@@ -375,7 +442,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/datagrip.png",
     "developer": "JetBrains",
     "category": "Base de données",
-    "website": "https://www.jetbrains.com/datagrip/"
+    "website": "https://www.jetbrains.com/datagrip/",
+    "version": "10.13+"
   },
   {
     "id": "mongodb-compass",
@@ -384,7 +452,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/mongodb-compass.png",
     "developer": "MongoDB Inc.",
     "category": "Base de données",
-    "website": "https://www.mongodb.com/products/compass"
+    "website": "https://www.mongodb.com/products/compass",
+    "version": "10.15+"
   },
   {
     "id": "cyberduck",
@@ -393,7 +462,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/cyberduck.png",
     "developer": "iterate GmbH",
     "category": "Utilitaire",
-    "website": "https://cyberduck.io/"
+    "website": "https://cyberduck.io/",
+    "version": "10.13+"
   },
   {
     "id": "transmission",
@@ -402,7 +472,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/transmission.png",
     "developer": "Transmission Project",
     "category": "Utilitaire",
-    "website": "https://transmissionbt.com/"
+    "website": "https://transmissionbt.com/",
+    "version": "10.13+"
   },
   {
     "id": "steam",
@@ -411,25 +482,30 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/steam.png",
     "developer": "Valve Corporation",
     "category": "Jeux",
-    "website": "https://store.steampowered.com/"
+    "website": "https://store.steampowered.com/",
+    "version": "10.11+"
   },
   {
     "id": "openemu",
+    "id-beta": "openemu@experimental",
     "name": "OpenEmu",
     "description": "Émulateur multi-consoles pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/openemu.png",
     "developer": "OpenEmu Team",
     "category": "Émulateur",
-    "website": "https://openemu.org/"
+    "website": "https://openemu.org/",
+    "version": "10.11+"
   },
   {
     "id": "virtualbox",
+    "id-beta": "virtualbox@beta",
     "name": "VirtualBox",
     "description": "Solution de virtualisation gratuite et open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/virtualbox.png",
     "developer": "Oracle Corporation",
     "category": "Virtualisation",
-    "website": "https://www.virtualbox.org/"
+    "website": "https://www.virtualbox.org/",
+    "version": "10.15+"
   },
   {
     "id": "parallels",
@@ -438,7 +514,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/parallels.png",
     "developer": "Parallels International GmbH",
     "category": "Virtualisation",
-    "website": "https://www.parallels.com/products/desktop/"
+    "website": "https://www.parallels.com/products/desktop/",
+    "version": "12+"
   },
   {
     "id": "vmware-fusion",
@@ -447,7 +524,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/vmware-fusion.png",
     "developer": "VMware Inc.",
     "category": "Virtualisation",
-    "website": "https://www.vmware.com/products/fusion.html"
+    "website": "https://www.vmware.com/products/fusion.html",
+    "version": "13+"
   },
   {
     "id": "disk-drill",
@@ -456,16 +534,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/disk-drill.png",
     "developer": "CleverFiles",
     "category": "Utilitaire",
-    "website": "https://www.cleverfiles.com/disk-drill-mac.html"
+    "website": "https://www.cleverfiles.com/disk-drill-mac.html",
+    "version": "10.15+"
   },
   {
     "id": "obs",
+    "id-beta": "obs@eta",
     "name": "OBS Studio",
     "description": "Logiciel de streaming et d'enregistrement vidéo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/obs-studio.png",
     "developer": "OBS Project",
     "category": "Vidéo",
-    "website": "https://obsproject.com/"
+    "website": "https://obsproject.com/",
+    "version": "11+"
   },
   {
     "id": "darktable",
@@ -474,7 +555,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/darktable.png",
     "developer": "Darktable Team",
     "category": "Photo",
-    "website": "https://www.darktable.org/"
+    "website": "https://www.darktable.org/",
+    "version": "13+"
   },
   {
     "id": "shotcut",
@@ -483,7 +565,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/shotcut.png",
     "developer": "Meltytech, LLC",
     "category": "Vidéo",
-    "website": "https://shotcut.org/"
+    "website": "https://shotcut.org/",
+    "version": "11+"
   },
   {
     "id": "musescore",
@@ -492,7 +575,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/musescore.png",
     "developer": "MuseScore BVBA",
     "category": "Musique",
-    "website": "https://musescore.org/"
+    "website": "https://musescore.org/",
+    "version": "10.14+"
   },
   {
     "id": "godot",
@@ -501,7 +585,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/godot.png",
     "developer": "Godot Engine",
     "category": "Développement de Jeux",
-    "website": "https://godotengine.org/"
+    "website": "https://godotengine.org/",
+    "version": "10.13+"
   },
   {
     "id": "wireshark",
@@ -510,7 +595,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png",
     "developer": "Wireshark Foundation",
     "category": "Réseau",
-    "website": "https://www.wireshark.org/"
+    "website": "https://www.wireshark.org/",
+    "version": "13+"
   },
   {
     "id": "unity",
@@ -519,7 +605,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/unity.png",
     "developer": "Unity Technologies",
     "category": "Développement de Jeux",
-    "website": "https://unity.com/"
+    "website": "https://unity.com/",
+    "version": "10.11+"
   },
   {
     "id": "epic-games",
@@ -528,7 +615,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/epic-games-launcher.png",
     "developer": "Epic Games",
     "category": "Jeux",
-    "website": "https://www.epicgames.com/store/en-US/download"
+    "website": "https://www.epicgames.com/store/en-US/download",
+    "version": "10.12+"
   },
   {
     "id": "minecraft",
@@ -537,7 +625,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/minecraft.png",
     "developer": "Mojang Studios",
     "category": "Jeux",
-    "website": "https://www.minecraft.net/"
+    "website": "https://www.minecraft.net/",
+    "version": "10.11+"
   },
   {
     "id": "minetest",
@@ -546,7 +635,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/minetest.png",
     "developer": "Minetest Development Team",
     "category": "Jeux",
-    "website": "https://www.minetest.net/"
+    "website": "https://www.minetest.net/",
+    "version": "11.3"
   },
   {
     "id": "roblox",
@@ -555,7 +645,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/roblox.png",
     "developer": "Roblox Corporation",
     "category": "Jeux",
-    "website": "https://www.roblox.com/"
+    "website": "https://www.roblox.com/",
+    "version": "10.13+"
   },
   {
     "id": "deezer",
@@ -564,16 +655,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/deezer.png",
     "developer": "Deezer S.A.",
     "category": "Musique",
-    "website": "https://www.deezer.com/"
+    "website": "https://www.deezer.com/",
+    "version": "11+"
   },
   {
     "id": "utm",
+    "id-beta": "utm@beta",
     "name": "UTM",
-    "description": "Virtualisation d'OS sur macOS et iOS.",
+    "description": "Virtualisation d'OS sur macOS, iOS et iPadOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/utm.png",
     "developer": "UTM",
     "category": "Virtualisation",
-    "website": "https://mac.getutm.app/"
+    "website": "https://mac.getutm.app/",
+    "version": "11+"
   },
   {
     "id": "app-cleaner",
@@ -582,7 +676,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png",
     "developer": "FreeMacSoft",
     "category": "Utilitaire",
-    "website": "https://freemacsoft.net/appcleaner/"
+    "website": "https://freemacsoft.net/appcleaner/",
+    "version": "10.13+"
   },
   {
     "id": "bluestacks",
@@ -591,7 +686,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/bluestacks.png",
     "developer": "BlueStacks Inc.",
     "category": "Émulateur",
-    "website": "https://www.bluestacks.com/"
+    "website": "https://www.bluestacks.com/",
+    "version": "10.13+"
   },
   {
     "id": "microsoft-office",
@@ -600,7 +696,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-office.png",
     "developer": "Microsoft",
     "category": "Bureautique",
-    "website": "https://www.microsoft.com/microsoft-365"
+    "website": "https://www.microsoft.com/microsoft-365",
+    "version": "13+"
   },
   {
     "id": "adobe-acrobat-reader",
@@ -609,7 +706,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-acrobat-reader.png",
     "developer": "Adobe Inc.",
     "category": "Utilitaire",
-    "website": "https://acrobat.adobe.com/fr/fr/acrobat/pdf-reader.html"
+    "website": "https://acrobat.adobe.com/fr/fr/acrobat/pdf-reader.html",
+    "version": "10.11+"
   },
   {
     "id": "teamviewer",
@@ -618,25 +716,29 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/teamviewer.png",
     "developer": "TeamViewer AG",
     "category": "Utilitaire",
-    "website": "https://www.teamviewer.com/"
+    "website": "https://www.teamviewer.com/",
+    "version": "10.11+"
   },
   {
     "id": "dropbox",
+    "id-beta": "dropbox@beta",
     "name": "Dropbox",
     "description": "Stockage cloud et partage de fichiers.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/dropbox.png",
     "developer": "Dropbox Inc.",
     "category": "Stockage",
-    "website": "https://www.dropbox.com/"
+    "website": "https://www.dropbox.com/",
+    "version": "10.11+"
   },
   {
-    "id": "mega",
+    "id": "megasync",
     "name": "MEGA Sync",
     "description": "Application de synchronisation MEGA.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/mega-sync.png",
     "developer": "Mega Limited",
     "category": "Stockage",
-    "website": "https://mega.io/sync"
+    "website": "https://mega.io/sync",
+    "version": "10.15+"
   },
   {
     "id": "openoffice",
@@ -645,7 +747,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/openoffice.png",
     "developer": "Apache Software Foundation",
     "category": "Bureautique",
-    "website": "https://www.openoffice.org/"
+    "website": "https://www.openoffice.org/",
+    "version": "10.11+"
   },
   {
     "id": "libreoffice",
@@ -654,7 +757,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/libreoffice.png",
     "developer": "The Document Foundation",
     "category": "Bureautique",
-    "website": "https://www.libreoffice.org/"
+    "website": "https://www.libreoffice.org/",
+    "version": "10.15+"
   },
   {
     "id": "keepassx",
@@ -663,7 +767,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/keepassx.png",
     "developer": "KeePassX Team",
     "category": "Sécurité",
-    "website": "https://www.keepassx.org/"
+    "website": "https://www.keepassx.org/",
+    "version": "10.11+"
   },
   {
     "id": "ccleaner",
@@ -672,7 +777,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/ccleaner.png",
     "developer": "Piriform Ltd",
     "category": "Utilitaire",
-    "website": "https://www.ccleaner.com/"
+    "website": "https://www.ccleaner.com/",
+    "version": "10.11+"
   },
   {
     "id": "clamxav",
@@ -681,16 +787,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/clamxav.png",
     "developer": "Canimaan Software Ltd",
     "category": "Sécurité",
-    "website": "https://www.clamxav.com/"
-  },
-  {
-    "id": "wireshark",
-    "name": "Wireshark",
-    "description": "Analyseur de protocoles réseau open-source.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/wireshark.png",
-    "developer": "Wireshark Foundation",
-    "category": "Réseau",
-    "website": "https://www.wireshark.org/"
+    "website": "https://www.clamxav.com/",
+    "version": "10.11+"
   },
   {
     "id": "arc",
@@ -699,7 +797,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/arc.png",
     "developer": "The Browser Company",
     "category": "Navigateur Web",
-    "website": "https://arc.net/"
+    "website": "https://arc.net/",
+    "version": "13+"
   },
   {
     "id": "mamp",
@@ -708,16 +807,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/mamp.png",
     "developer": "MAMP GmbH",
     "category": "Développement",
-    "website": "https://www.mamp.info/"
+    "website": "https://www.mamp.info/",
+    "version": "10.12+"
   },
   {
     "id": "github",
+    "id-beta": "github@beta",
     "name": "GitHub Desktop",
     "description": "Client Git visuel officiel de GitHub.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/github-desktop.png",
     "developer": "GitHub",
     "category": "Développement",
-    "website": "https://desktop.github.com/"
+    "website": "https://desktop.github.com/",
+    "version": "10.13+"
   },
   {
     "id": "carbon-copy-cloner",
@@ -726,7 +828,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/carbon-copy-cloner.png",
     "developer": "Bombich Software",
     "category": "Utilitaire",
-    "website": "https://bombich.com/"
+    "website": "https://bombich.com/",
+    "version": "13+"
   },
   {
     "id": "intellij-idea",
@@ -735,7 +838,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/intellij-idea.png",
     "developer": "JetBrains",
     "category": "Développement",
-    "website": "https://www.jetbrains.com/idea/"
+    "website": "https://www.jetbrains.com/idea/",
+    "version": "10.13+"
   },
   {
     "id": "mactracker",
@@ -744,7 +848,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/mactracker.png",
     "developer": "Ian Page",
     "category": "Utilitaire",
-    "website": "https://mactracker.ca/"
+    "website": "https://mactracker.ca/",
+    "version": "10.12+"
   },
   {
     "id": "malwarebytes",
@@ -753,7 +858,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/malwarebytes.png",
     "developer": "Malwarebytes Inc.",
     "category": "Sécurité",
-    "website": "https://www.malwarebytes.com/"
+    "website": "https://www.malwarebytes.com/",
+    "version": "11+"
   },
   {
     "id": "avast-security",
@@ -762,7 +868,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/avast.png",
     "developer": "Avast Software",
     "category": "Sécurité",
-    "website": "https://www.avast.com/"
+    "website": "https://www.avast.com/",
+    "version": "10.11+"
   },
   {
     "id": "mpv",
@@ -771,7 +878,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/mpv.png",
     "developer": "MPV Team",
     "category": "Multimédia",
-    "website": "https://mpv.io/"
+    "website": "https://mpv.io/",
+    "version": "10.9+"
   },
   {
     "id": "coconutbattery",
@@ -780,7 +888,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/coconutbattery.png",
     "developer": "coconut-flavour",
     "category": "Utilitaire",
-    "website": "https://www.coconut-flavour.com/coconutbattery/"
+    "website": "https://www.coconut-flavour.com/coconutbattery/",
+    "version": "12+"
   },
   {
     "id": "cleanmymac",
@@ -789,7 +898,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/cleanmymac.png",
     "developer": "MacPaw",
     "category": "Utilitaire",
-    "website": "https://macpaw.com/cleanmymac"
+    "website": "https://macpaw.com/cleanmymac",
+    "version": "11+"
   },
   {
     "id": "skim",
@@ -798,16 +908,19 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/skim.png",
     "developer": "Skim Team",
     "category": "Productivité",
-    "website": "https://skim-app.sourceforge.io/"
+    "website": "https://skim-app.sourceforge.io/",
+    "version": "10.13+"
   },
   {
     "id": "keka",
+    "id-beta": "keka@beta",
     "name": "Keka",
     "description": "Outil de compression et décompression de fichiers.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/keka.png",
     "developer": "Joaquín Moreno",
     "category": "Utilitaire",
-    "website": "https://www.keka.io/"
+    "website": "https://www.keka.io/",
+    "version": "10.11+"
   },
   {
     "id": "android-file-transfer",
@@ -816,7 +929,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/android-file-transfer.png",
     "developer": "Google",
     "category": "Utilitaire",
-    "website": "https://www.android.com/filetransfer/"
+    "website": "https://www.android.com/filetransfer/",
+    "version": "10.11+"
   },
   {
     "id": "qbittorrent",
@@ -825,7 +939,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/qbittorrent.png",
     "developer": "qBittorrent Team",
     "category": "Téléchargement",
-    "website": "https://www.qbittorrent.org/"
+    "website": "https://www.qbittorrent.org/",
+    "version": "10.13+"
   },
   {
     "id": "fluid",
@@ -834,7 +949,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/fluid.png",
     "developer": "Celestial Teapot",
     "category": "Utilitaire",
-    "website": "https://fluidapp.com/"
+    "website": "https://fluidapp.com/",
+    "version": "10.12+"
   },
   {
     "id": "brackets",
@@ -843,7 +959,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/brackets.png",
     "developer": "Adobe (Projet abandonné)",
     "category": "Développement",
-    "website": "https://brackets.io/"
+    "website": "https://brackets.io/",
+    "version": "10.11+"
   },
   {
     "id": "atom",
@@ -852,7 +969,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/atom.png",
     "developer": "GitHub (Projet abandonné)",
     "category": "Développement",
-    "website": "https://atom.io/"
+    "website": "https://atom.io/",
+    "version": "10.11+"
   },
   {
     "id": "vivaldi",
@@ -861,7 +979,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/vivaldi.png",
     "developer": "Vivaldi Technologies",
     "category": "Navigateur Web",
-    "website": "https://vivaldi.com/"
+    "website": "https://vivaldi.com/",
+    "version": "11+"
   },
   {
     "id": "altserver",
@@ -870,7 +989,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/altserver.png",
     "developer": "Riley Testut",
     "category": "Utilitaire",
-    "website": "https://altstore.io/"
+    "website": "https://altstore.io/",
+    "version": "11+"
   },
   {
     "id": "ti-connect-ce",
@@ -879,7 +999,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/ti-connect-ce.png",
     "developer": "Texas Instruments",
     "category": "Éducation",
-    "website": "https://education.ti.com/fr/produits/logiciel-ordinateur/ti-connect-ce-sw"
+    "website": "https://education.ti.com/fr/produits/logiciel-ordinateur/ti-connect-ce-sw",
+    "version": "10.11+"
   },
   {
     "id": "packages",
@@ -888,7 +1009,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/packages.png",
     "developer": "WhiteBox",
     "category": "Développement",
-    "website": "https://s.sudre.free.fr/Software/Packages/about.html"
+    "website": "https://s.sudre.free.fr/Software/Packages/about.html",
+    "version": "10.11+"
   },
   {
     "id": "codeedit",
@@ -897,7 +1019,8 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/codeedit.png",
     "developer": "CodeEdit Team",
     "category": "Développement",
-    "website": "https://github.com/CodeEditApp/CodeEdit"
+    "website": "https://github.com/CodeEditApp/CodeEdit",
+    "version": "13+"
   },
   {
     "id": "keepingyouawake",
@@ -906,15 +1029,18 @@
     "icon": "https://corundumproject.github.io/quick/assets/icons/keepingyouawake.png",
     "developer": "Tomasz Janeczko",
     "category": "Utilitaires",
-    "website": "https://keepingyouawake.app"
+    "website": "https://keepingyouawake.app",
+    "version": "10.13+"
   },
   {
     "id": "dolphin",
+    "id-beta": "dolphin@beta",
     "name": "Dolphin",
     "description": "Émulateur de jeux GameCube et Wii.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/dolphin.png",
     "developer": "Dolphin Emulator Project",
     "category": "Jeux",
-    "website": "https://dolphin-emu.org"
+    "website": "https://dolphin-emu.org",
+    "version": "10.15+"
   }
 ]  
