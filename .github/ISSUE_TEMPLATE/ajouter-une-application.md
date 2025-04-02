@@ -2,7 +2,7 @@
 name: Ajouter une application
 about: Suggérer une application
 title: ''
-labels: ''
+labels: applications
 assignees: ''
 
 ---
