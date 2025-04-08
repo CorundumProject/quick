@@ -13,12 +13,22 @@
   {
     "id": "firefox",
     "id-beta": "firefox@beta",
-    "name": "Mozilla Firefox",
+    "name": "Firefox",
     "description": "Navigateur web axé sur la confidentialité et la performance.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png",
     "developer": "Mozilla",
     "category": "Navigateur Web",
     "website": "https://www.mozilla.org/firefox/",
+    "version": "10.15+"
+  },
+  {
+    "id": "firefox@developer-edition",
+    "name": "Firefox Developer Edition",
+    "description": "Navigateur web axé sur la confidentialité et la performance.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png",
+    "developer": "Mozilla",
+    "category": "Navigateur Web",
+    "website": "https://www.mozilla.org/fr/firefox/developer/",
     "version": "10.15+"
   },
   {
@@ -1042,5 +1052,146 @@
     "category": "Jeux",
     "website": "https://dolphin-emu.org",
     "version": "10.15+"
+  },
+  {
+    "id": "ssh-config-editor",
+    "name": "SSH Config Editor",
+    "description": "Éditeur de configuration SSH.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/ssh-config-editor.png",
+    "developer": "SSH Config Editor Team",
+    "category": "Développement",
+    "website": "https://www.sshconfigeditor.com/",
+    "version": "11+"
+  },
+  {
+    "id": "snagit",
+    "name": "Snagit",
+    "description": "Outil de capture d'écran et d'enregistrement vidéo.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/snagit.png",
+    "developer": "TechSmith",
+    "category": "Productivité",
+    "website": "https://www.techsmith.com/screen-capture.html",
+    "version": "14+"
+  },
+  {
+    "id": "plex",
+    "name": "Plex",
+    "description": "Solution de streaming multimédia.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/plex.png",
+    "developer": "Plex Inc.",
+    "category": "Multimédia",
+    "website": "https://www.plex.tv/",
+    "version": "10.13+"
+  },
+  {
+    "id": "mimestream",
+    "name": "Mimestream",
+    "description": "Client email natif pour Gmail sur macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mimestream.png",
+    "developer": "Mimestream Inc.",
+    "category": "Email",
+    "website": "https://mimestream.com/",
+    "version": "12+"
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "description": "Outil de communication vidéo pour les équipes.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/loom.png",
+    "developer": "Loom Inc.",
+    "category": "Communication",
+    "website": "https://www.loom.com/",
+    "version": "10.15+"
+  },
+  {
+    "id": "grammarly-desktop",
+    "name": "Grammarly Desktop",
+    "description": "Assistant d'écriture pour une meilleure communication.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/grammarly-desktop.png",
+    "developer": "Grammarly Inc.",
+    "category": "Productivité",
+    "website": "https://www.grammarly.com/",
+    "version": "10.15+"
+  },
+  {
+    "id": "forklift",
+    "name": "Forklift",
+    "description": "Gestionnaire de fichiers et client FTP.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/forklift.png",
+    "developer": "BinaryNights",
+    "category": "Utilitaire",
+    "website": "https://binarynights.com/",
+    "version": "12+"
+  },
+  {
+    "id": "bartender",
+    "name": "Bartender",
+    "description": "Organisation de la barre de menu pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/bartender.png",
+    "developer": "Surtees Studios",
+    "category": "Utilitaire",
+    "website": "https://www.macbartender.com/",
+    "version": "11+"
+  },
+  {
+    "id": "backblaze",
+    "name": "Backblaze",
+    "description": "Solution de sauvegarde cloud.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/backblaze.png",
+    "developer": "Backblaze Inc.",
+    "category": "Stockage",
+    "website": "https://www.backblaze.com/",
+    "version": "10.11+"
+  },
+  {
+    "id": "affinity-designer",
+    "name": "Affinity Designer",
+    "description": "Logiciel de conception graphique vectorielle.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/affinity-designer.png",
+    "developer": "Serif",
+    "category": "Graphisme",
+    "website": "https://affinity.serif.com/en-us/designer/",
+    "version": "10.15+"
+  },
+  {
+    "id": "open-core-patcher",
+    "name": "OpenCore Legacy Patcher",
+    "description": "Outil pour patcher macOS sur des Mac non supportés.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/open-core-legacy-patcher.png",
+    "developer": "OpenCore Team",
+    "category": "Utilitaire",
+    "website": "https://dortania.github.io/OpenCore-Legacy-Patcher/",
+    "version": "10.11+"
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "description": "Application de prise de notes et d'organisation.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/evernote.png",
+    "developer": "Evernote Corporation",
+    "category": "Productivité",
+    "website": "https://evernote.com/",
+    "version": "10.11+"
+  },
+  {
+    "id": "sublime-merge",
+    "id-beta": "sublime-merge@dev",
+    "name": "Sublime Merge",
+    "description": "Client Git performant et intuitif.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-merge.png",
+    "developer": "Sublime HQ Pty Ltd",
+    "category": "Développement",
+    "website": "https://www.sublimemerge.com/",
+    "version": "10.11+"
+  },
+  {
+    "id": "camtasia",
+    "name": "Camtasia",
+    "description": "Logiciel de capture et d'édition vidéo.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/camtasia.png",
+    "developer": "TechSmith",
+    "category": "Multimédia",
+    "website": "https://www.techsmith.com/video-editor.html",
+    "version": "13+"
   }
-]  
+]
