@@ -25,7 +25,7 @@
     "id": "firefox@developer-edition",
     "name": "Firefox Developer Edition",
     "description": "Navigateur web axé sur la confidentialité et la performance.",
-    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox.png",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/firefox-dev.png",
     "developer": "Mozilla",
     "category": "Navigateur Web",
     "website": "https://www.mozilla.org/fr/firefox/developer/",
