@@ -1,6 +1,6 @@
 ---
 name: Ajouter une application
-about: Suggérer une application
+about: Suggérer une nouvelle application à ajouter
 title: ''
 labels: applications
 assignees: ''
