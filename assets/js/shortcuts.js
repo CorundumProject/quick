@@ -1,3 +1,14 @@
+// Fonction qui affiche la section des paramètres
+function displaySettings(state) {
+    if (state === true) {
+        document.querySelector("#settings").classList.remove("d-none");
+        document.querySelector("#applications-container").classList.add("d-none");
+        document.querySelector("#application-detail").classList.add("d-none");
+        document.querySelector("#search").classList.add("d-none");
+        document.querySelector("#welcome-alert").classList.add("d-none");
+    }
+}
+
 // Gestion des événements clavier
 function handleKeyPress(event) {
     if (event.key === "a" || event.key === "A") {
@@ -8,6 +19,9 @@ function handleKeyPress(event) {
     }
     if (event.key === "d" || event.key === "D") {
         window.open("https://discord.gg/2zX67vqh6b" , '_blank');
+    }
+    if (event.key === "p" || event.key === "P") {
+        displaySettings(true);
     }
 }
 
