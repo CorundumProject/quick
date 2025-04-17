@@ -34,15 +34,20 @@ function appDetails(appId) {
             const app = data.find(app => app.id === appId);
             if (app) {
                 selectedApplicationContainer.innerHTML = `
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <img src="${app.icon}" alt="${app.name}" class="w-25 mb-3 text-center">
-                            <h5 class="card-title text-center">${app.name}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted text-center">${app.category}</h6>
-                            <p class="card-text text-center">${app.description}</p>
-                            <p class="card-text text-center">Vous devez être sur macOS ${app.version}</p>
-                            <a href="${app.website}" target="_blank" class="btn btn-primary">Site officiel</a>
-                            <button id="back-button" class="btn btn-secondary">Revenir en arrière</button>
+                    <div class="card d-flex flex-row justify-content-between align-items-center">
+                        <img src="${app.icon}" alt="${app.name}" class="w-25 mb-3 text-center">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-start">
+                            <h5 class="w-100 card-title text-left">${app.name}</h5>
+                            <h6 class="w-100 card-subtitle text-left mb-2 text-muted">${app.category}</h6>
+                            <p class="w-100 card-text text-left">${app.description}</p>
+                            <h6 class="w-100 text-left">Assistant compatibilité</h6>
+                            <ul class="w-100 text-left">
+                                <li class="card-text">Vous devez être sur macOS ${app.version}</li>
+                            </ul>
+                            <div class="btn-group w-100" role="group" aria-label="Interaction avec l'application">
+                                <a href="${app.website}" target="_blank" class="btn btn-primary">Site officiel</a>
+                                <button id="back-button" class="btn btn-secondary">Revenir en arrière</button>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -86,28 +91,31 @@ outputCommand.addEventListener("click", () => {
 
     // Utiliser l'API Clipboard pour copier
     navigator.clipboard.writeText(commandText).then(() => {
-        status.classList.add("text-success");
-        status.textContent = "Texte copié !";
-
+        // status.classList.add("text-success");
+        status.classList.remove("d-none");
         setTimeout(() => {
-            status.classList.remove("text-success");
-            status.textContent = "";
+            status.classList.add("d-none");
+            // status.textContent = "";
         }, 2500);
     }).catch((err) => {
-        status.classList.add("text-danger");
+        status.classList.remove("d-none");
+        status.classList.remove("alert-success");
+        status.classList.add("alert-danger");
         status.textContent = "Une erreur est survenue : " + err;
         setTimeout(() => {
-            status.classList.remove("text-danger");
-            status.textContent = "";
+            status.classList.remove("alert-danger");
+            status.classList.add("alert-success");
+            status.textContent = "La commande a été copiée dans le presse-papier avec succès !";
+            status.classList.add("d-none");
         }, 2500);
     });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
     // Chargement du fichier JSON avec fetch()
-    const applicationsContainer = document.getElementById("applications-container");
-    const searchInput = document.getElementById("search-input");
-    const searchButton = document.getElementById("search-button");
+    const applicationsContainer = document.querySelector("#applications-container");
+    const searchInput = document.querySelector("#search-input");
+    const searchButton = document.querySelector("#search-button");
 
     function fetchAndDisplayApps(searchTerm = "") {
         fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
@@ -132,7 +140,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     const cardDiv = document.createElement("div");
                     cardDiv.classList.add("card", "h-100", "border-3");
-                    cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
+                    if (localStorage.getItem("application-type") === "default") {
+                        cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
+                    } else if (localStorage.getItem("application-type") === "pre-release") {
+                        cardDiv.addEventListener("click", () => selectApp(cardDiv, app.beta));
+                    }
 
                     if (selectedApplications.includes(app.id)) {
                         cardDiv.classList.add("border-primary");
