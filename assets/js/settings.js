@@ -34,6 +34,31 @@ function displayPrereleaseApps() {
     }
 }
 
+// Fonction qui permet de modifier l'affichage des applications
+function changeApplicationDisposition() {
+    const dispositionSelect = document.getElementById("apps-disposition");
+
+    if (dispositionSelect) {
+        const savedDisposition = localStorage.getItem("application-disposition");
+        if (savedDisposition) {
+            dispositionSelect.value = savedDisposition;
+        }
+
+        dispositionSelect.addEventListener("change", function (e) {
+            const value = e.target.value;
+            console.log("Disposition choisie :", value);
+
+            localStorage.setItem("application-disposition", value);
+
+            const appContainer = document.getElementById("applications-container");
+            if (appContainer) {
+                appContainer.classList.remove("cards-layout", "list-layout");
+                appContainer.classList.add(value === "list" ? "list-layout" : "cards-layout");
+            }
+        });
+    }
+}
+
 function accessToHomepage() {
     if (!localStorage.getItem("alert-dismissed")) {
         document.querySelector("#welcome-alert").classList.remove("d-none");
@@ -48,3 +73,4 @@ function accessToHomepage() {
 initialize();
 closeButton.addEventListener("click", accessToHomepage);
 switchBeta.addEventListener("click", displayPrereleaseApps);
+changeApplicationDisposition();

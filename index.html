@@ -109,7 +109,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Disposition des applications</h5>
                                 <p class="card-text">Ce paramètre vous permet de changer la disposition des applications sur la page d'accueil.</p>
-                                <select class="form-select" aria-label="Disposition des applications">
+                                <select id="apps-disposition" class="form-select" aria-label="Disposition des applications">
                                     <option value="cards">Cartes (par défaut)</option>
                                     <option value="list">Liste</option>
                                 </select>
@@ -120,11 +120,22 @@
                                 <h5 class="card-title">Tri des applications</h5>
                                 <p class="card-text">Ce paramètre vous permet de changer l'ordre dans lequel les applications s'affichent.</p>
                                 <select class="form-select" aria-label="Disposition des applications">
-                                    <option value="default">Par défaut</option>
                                     <option value="a-z">A à Z</option>
                                     <option value="z-a">Z à A</option>
+                                    <option value="default" selected>Par ajout (défaut)</option>
                                     <option value="category">Par catégorie</option>
                                     <option value="developer">Par développeur</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Taille des cartes</h5>
+                                <p class="card-text">Ce paramètre vous permet de changer la taille des cartes.</p>
+                                <select class="form-select" aria-label="Tailles des cartes">
+                                    <option value="big">2 par lignes</option>
+                                    <option value="default" selected>3 par lignes (par défaut)</option>
+                                    <option value="small">4 par lignes</option>
                                 </select>
                             </div>
                         </div>
