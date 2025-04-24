@@ -8,7 +8,10 @@ assignees: ''
 ---
 
 **Quel est le nom de votre application ?**
-*Exemple : Firefox Developer Edition*
+*Exemple : Google Chrome*
 
 **Quel est l'identifiant brew de l'application ?**
-*Exemple : `firefox@developer-edition`*
+*Exemple : `google-chrome`*
+
+**Votre application possède-t-il un identifiant bêta ? Laisser vide si ce n'est pas le cas**
+*Exemple : `google-chrome@beta`*
