@@ -1426,7 +1426,7 @@
     "description": "Empêche votre Mac de se mettre en veille.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/keepingyouawake.png",
     "developer": "Tomasz Janeczko",
-    "category": "Utilitaires",
+    "category": "Utilitaire",
     "website": "https://keepingyouawake.app",
     "version": "10.13+",
     "architecture": [
