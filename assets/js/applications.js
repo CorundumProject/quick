@@ -28,7 +28,7 @@ function selectApp(card, appId) {
 
 // Afficher les détails d'une application
 function appDetails(appId) {
-    fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
+    fetch("https://corundum.fr/quick/assets/json/applications.json")
         .then(response => response.json())
         .then(data => {
             const app = data.find(app => app.id === appId);
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchButton = document.getElementById("search-button");
 
     function fetchAndDisplayApps(searchTerm = "") {
-        fetch("https://corundumproject.github.io/quick/assets/json/applications.json")
+        fetch("https://corundum.fr/quick/assets/json/applications.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Erreur lors du chargement du fichier JSON");
