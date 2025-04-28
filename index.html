@@ -32,11 +32,17 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5">Installer des applications</h1>
+                    <h5 class="modal-title fs-5">Installer des applications</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Copiez cette ligne de commande dans votre Terminal.</p>
+                    <h6>Ouvrez votre terminal</h6>
+                    <p>Ouvrez le terminal localisé dans <code>/Applications/Utilitaires/Terminal.app</code>.</p>
+                    <p>Vous pouvez également utiliser <strong>SpotLight</strong> ou le <strong>LaunchPad</strong> pour ouvrir l'application.</p>
+                    <h6>Installez brew</h6>
+                    <p>Si ce n'est pas déjà fait, copiez la commande disponible à <a href="https://brew.sh/fr" target="_blank">cette adresse</a> dans un <strong>Terminal</strong> pour installer le gestionnaire de paquets.</p>
+                    <h6>Téléchargez vos applications</h6>
+                    <p>Copiez cette ligne de commande dans votre terminal puis faites entrer.</p>
                     <code class="command d-block p-2 bg-light border rounded" data-bs-toggle="tooltip" data-bs-title="Cliquez pour copier !">
                         Aucune sélection
                     </code>
@@ -60,8 +66,8 @@
     </section>
     <div class="container">
         <div id="search" class="mt-4 mb-4 input-group">
-            <input type="text" id="search-input" class="form-control" placeholder="Rechercher..." aria-label="Rechercher" aria-describedby="search-button">
-            <button class="btn btn-primary" type="button" id="search-button">Rechercher</button>
+            <input type="text" id="search-input" class="form-control" placeholder="Recherchez un nom d'application, un développeur, une catégorie..." aria-label="Rechercher" aria-describedby="search-button">
+            <button class="btn btn-primary" type="button" id="search-button"><i class="bi bi-search"></i></button>
         </div>
         <div class="alert alert-primary error" role="alert">
             Veuillez sélectionner une application
@@ -83,23 +89,22 @@
             <div id="change-alert" class="alert alert-success mt-4 d-none" role="alert">
                 Vos paramètres ont été sauvegardés et appliqués avec succès !
             </div>
-            <div class="content mt-4 d-flex flex-row justify-content-between">
-                <div class="list-group">
+            <div class="content d-flex flex-row justify-content-between">
+                <div class="list-group sticky-top">
                     <a href="#applications" class="list-group-item list-group-item-action">Applications</a>
                     <a href="#appearance" class="list-group-item list-group-item-action">Apparence</a>
                     <a href="#functions" class="list-group-item list-group-item-action">Fonctionnalités</a>
+                    <a href="https://corundum.gitbook.io/quick" target="_blank" class="list-group-item list-group-item-action">Documentation</a>
+                    <a href="#about" class="list-group-item list-group-item-action">À propos</a>
+                    <a href="#credits" class="list-group-item list-group-item-action">Crédits</a>
                 </div>
                 <div class="settings flex-fill ms-4">
                     <section id="applications" class="mb-4">
                         <h3 class="subtitle mb-3">Applications</h3>
                         <div class="card mb-3">
                             <div class="card-body">
-                                <h5 class="card-title">Utiliser les versions bêta des applications</h5>
-                                <p class="card-text">Ce paramètre vous permet de changer l'identifiant brew d'une application en bêta, selon sa disponibilité.</p>
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch" id="apps-beta">
-                                    <label class="form-check-label" for="apps-beta">Désactivé</label>
-                                </div>
+                                <h5 class="card-title">Aucunes fonctionnalités</h5>
+                                <p class="card-text">Aucunes fonctionnalités liées à cette catégorie n'est disponible pour le moment.</p>
                             </div>
                         </div>
                     </section>
@@ -119,7 +124,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Tri des applications</h5>
                                 <p class="card-text">Ce paramètre vous permet de changer l'ordre dans lequel les applications s'affichent.</p>
-                                <select class="form-select" aria-label="Disposition des applications">
+                                <select id="apps-sort" class="form-select" aria-label="Disposition des applications">
                                     <option value="a-z">A à Z</option>
                                     <option value="z-a">Z à A</option>
                                     <option value="default" selected>Par ajout (défaut)</option>
@@ -128,11 +133,11 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="card mb-3">
+                        <div id="card-size-settings" class="card mb-3 d-none">
                             <div class="card-body">
                                 <h5 class="card-title">Taille des cartes</h5>
                                 <p class="card-text">Ce paramètre vous permet de changer la taille des cartes.</p>
-                                <select class="form-select" aria-label="Tailles des cartes">
+                                <select id="card-size-select" class="form-select" aria-label="Tailles des cartes">
                                     <option value="big">2 par lignes</option>
                                     <option value="default" selected>3 par lignes (par défaut)</option>
                                     <option value="small">4 par lignes</option>
@@ -153,13 +158,10 @@
                     </section>
                     <section id="functions">
                         <h3 class="subtitle mb-3">Fonctionnalités</h3>
-<!--                        <div class="card mb-3">-->
-<!--                            <div class="card-body">-->
-<!--                                <h5 class="card-title">Aucunes fonctionnalités</h5>-->
-<!--                                <p class="card-text">Aucunes fonctionnalités en test n'est disponible pour le moment.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
                         <div class="card mb-3">
+                            <div class="card-header text-bg-success">
+                                Disponible, élément bêta
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Bouton "Installer"</h5>
                                 <p class="card-text">Ce paramètre vous permet d'afficher le bouton pour installer vos logiciels.</p>
@@ -169,10 +171,74 @@
                                     <option value="top">En haut de la page</option>
                                 </select>
                             </div>
-                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                Bêta
-                                <span class="visually-hidden">New alerts</span>
-                            </span>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header text-bg-danger">
+                                Indisponible, toujours en développement
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Utiliser les versions bêta des applications</h5>
+                                <p class="card-text">Ce paramètre vous permet de changer l'identifiant brew d'une application en bêta, selon sa disponibilité.</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="apps-beta" disabled>
+                                    <label class="form-check-label" for="apps-beta">Désactivé</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="about">
+                        <h3 class="subtitle mb-3">À propos</h3>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="quick-about mb-2 d-flex flex-row align-items-center justify-content-start">
+                                    <img src="assets/img/logo.png" alt="Logo Quick" class="icon me-1">
+                                    <h5 class="card-title">Quick</h5>
+                                </div>
+                                <p class="card-text">Téléchargez vos applications en un éclair.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Version</h5>
+                                <ul>
+                                    <li>
+                                        <strong>Interface :</strong> 1.0.42
+                                    </li>
+                                    <li>
+                                        <strong>Base :</strong> 1.0.11 (205 applications)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Distribution</h5>
+                                <p class="card-text">Ce projet est distribué sous <a href="LICENSE">licence MIT</a>.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="credits">
+                        <h3 class="subtitle mb-3">Crédits</h3>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Développeurs</h5>
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/enioaiello/" target="_blank">Enio Aiello</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Contributeurs</h5>
+                                <p class="card-text">Vous pouvez consulter la liste de tous les contributeurs <a href="https://github.com/CorundumProject/quick/graphs/contributors" target="_blank">ici</a>.</p>
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/justyuuto/" target="_blank">JustYuuto</a>, correctif <a href="https://github.com/CorundumProject/quick/pull/9" target="_blank">#9</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </section>
                 </div>

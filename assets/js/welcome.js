@@ -19,6 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    if (localStorage.getItem("cards-size") === "3") {
+        document.querySelector(".applications-container .card").classList.add("scard-3")
+    }
+
     if (!localStorage.getItem("application-type")) {
         localStorage.setItem("application-type", "default");
     }
@@ -37,5 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!localStorage.getItem("install-button")) {
         localStorage.setItem("install-button", "disabled");
+    }
+
+    if (!localStorage.getItem("cards-size")) {
+        localStorage.setItem("card-sizes", "3");
     }
 });

@@ -1644,5 +1644,397 @@
       "x86_64",
       "arm64"
     ]
+  },
+  {
+    "id": "skype",
+    "name": "Skype",
+    "description": "Application de communication et d'appels vidéo.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/skype.png",
+    "developer": "Microsoft",
+    "category": "Communication",
+    "website": "https://www.skype.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "markedit",
+    "name": "MarkEdit",
+    "description": "Éditeur Markdown simple et efficace.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/markedit.png",
+    "developer": "MarkEdit Team",
+    "category": "Éditeur de texte",
+    "website": "https://markedit.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "geekbench-ai",
+    "name": "Geekbench AI",
+    "description": "Benchmark pour l'intelligence artificielle.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/geekbench-ai.png",
+    "developer": "Primate Labs",
+    "category": "Benchmark",
+    "website": "https://www.geekbench.com/ai/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "geekbench",
+    "name": "Geekbench",
+    "description": "Outil de benchmark pour processeurs et GPU.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/geekbench.png",
+    "developer": "Primate Labs",
+    "category": "Benchmark",
+    "website": "https://www.geekbench.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "retroarch",
+    "name": "RetroArch",
+    "description": "Interface graphique pour émulateurs et moteurs de jeux.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/retroarch.png",
+    "developer": "The Libretro Team",
+    "category": "Émulateur",
+    "website": "https://www.retroarch.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "eloston-chromium",
+    "name": "Ungoogled Chromium",
+    "description": "Navigateur web sans services Google intégrés.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/eloston-chromium.png",
+    "developer": "Eloston",
+    "category": "Navigateur Web",
+    "website": "https://github.com/Eloston/ungoogled-chromium",
+    "version": "13+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "keepassxc",
+    "name": "KeePassXC",
+    "description": "Gestionnaire de mots de passe open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/keepassxc.png",
+    "developer": "KeePassXC Team",
+    "category": "Sécurité",
+    "website": "https://keepassxc.org/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "microsoft-edge",
+    "name": "Microsoft Edge",
+    "description": "Navigateur rapide et sécurisé de Microsoft.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-edge.png",
+    "developer": "Microsoft",
+    "category": "Navigateur Web",
+    "website": "https://www.microsoft.com/edge",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "onedrive",
+    "name": "OneDrive",
+    "description": "Service de stockage cloud de Microsoft.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/onedrive.png",
+    "developer": "Microsoft",
+    "category": "Stockage",
+    "website": "https://www.microsoft.com/onedrive",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "microsoft-remote-desktop",
+    "name": "Microsoft Remote Desktop",
+    "description": "Application pour accéder à distance à des PC ou Mac.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-remote-desktop.png",
+    "developer": "Microsoft",
+    "category": "Utilitaire",
+    "website": "https://apps.apple.com/app/microsoft-remote-desktop/id1295203466",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "eclipse-java",
+    "name": "Eclipse IDE for Java Developers",
+    "description": "Environnement de développement pour Java.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/eclipse-java.png",
+    "developer": "Eclipse Foundation",
+    "category": "Développement",
+    "website": "https://www.eclipse.org/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "kdenlive",
+    "name": "Kdenlive",
+    "description": "Éditeur vidéo open-source.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/kdenlive.png",
+    "developer": "Kdenlive Team",
+    "category": "Vidéo",
+    "website": "https://kdenlive.org/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "mp3tag",
+    "name": "Mp3tag",
+    "description": "Éditeur avancé de balises pour fichiers audio.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/mp3tag.png",
+    "developer": "Florian Heidenreich",
+    "category": "Audio",
+    "website": "https://www.mp3tag.de/en/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "musicbrainz-picard",
+    "name": "Musicbrainz Picard",
+    "description": "Application d'organisation et de balisage audio.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/musicbrainz-picard.png",
+    "developer": "MetaBrainz Foundation",
+    "category": "Audio",
+    "website": "https://picard.musicbrainz.org/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "fantastical",
+    "name": "Fantastical",
+    "description": "Application de gestion de calendriers et événements.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/fantastical.png",
+    "developer": "Flexibits Inc.",
+    "category": "Productivité",
+    "website": "https://flexibits.com/fantastical",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "tiles",
+    "name": "Tiles",
+    "description": "Outil de gestion avancée des fenêtres.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/tiles.png",
+    "developer": "Tiles Team",
+    "category": "Utilitaire",
+    "website": "https://www.tiles.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "liteicon",
+    "name": "LiteIcon",
+    "description": "Personnalisation d'icônes macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/liteicon.png",
+    "developer": "LiteIcon Team",
+    "category": "Utilitaire",
+    "website": "https://freemacsoft.net/liteicon/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "geogebra",
+    "name": "GeoGebra",
+    "description": "Logiciel de mathématiques dynamique.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/geogebra.png",
+    "developer": "GeoGebra",
+    "category": "Éducation",
+    "website": "https://www.geogebra.org/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "visual-studio",
+    "name": "Visual Studio",
+    "description": "IDE puissant pour le développement multi-plateforme.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/visual-studio.png",
+    "developer": "Microsoft",
+    "category": "Développement",
+    "website": "https://visualstudio.microsoft.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "avg-antivirus",
+    "name": "AVG",
+    "description": "Logiciel antivirus et protection.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/avg.png",
+    "developer": "AVG Technologies",
+    "category": "Sécurité",
+    "website": "https://www.avg.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "affinity-photo",
+    "name": "Affinity Photo",
+    "description": "Logiciel de retouche photo professionnel.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/affinity-photo.png",
+    "developer": "Serif",
+    "category": "Graphisme",
+    "website": "https://affinity.serif.com/photo/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "paintbrush",
+    "name": "Paintbrush",
+    "description": "Outil de dessin simple pour macOS.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/paintbrush.png",
+    "developer": "Soggy Waffles",
+    "category": "Dessin",
+    "website": "https://paintbrush.sourceforge.io/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "adobe-creative-cloud",
+    "name": "Adobe Creative Cloud",
+    "description": "Suite d'outils de création Adobe.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-creative-cloud.png",
+    "developer": "Adobe",
+    "category": "Graphisme",
+    "website": "https://www.adobe.com/creativecloud.html",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "ableton-live-standard",
+    "name": "Ableton Live Standard",
+    "description": "Logiciel de production musicale.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/ableton-live-standard.png",
+    "developer": "Ableton",
+    "category": "Musique",
+    "website": "https://www.ableton.com/live/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "description": "Outil de design graphique en ligne.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/canva.png",
+    "developer": "Canva Pty Ltd",
+    "category": "Graphisme",
+    "website": "https://www.canva.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "anydesk",
+    "name": "AnyDesk",
+    "description": "Outil d'accès à distance rapide et sécurisé.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/anydesk.png",
+    "developer": "AnyDesk Software GmbH",
+    "category": "Utilitaire",
+    "website": "https://anydesk.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "description": "Outil de traduction avancé.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/deepl.png",
+    "developer": "DeepL GmbH",
+    "category": "Traduction",
+    "website": "https://www.deepl.com/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "google-earth-pro",
+    "name": "Google Earth Pro",
+    "description": "Exploration détaillée de la planète via un globe interactif.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/google-earth-pro.png",
+    "developer": "Google",
+    "category": "Géographie",
+    "website": "https://www.google.com/earth/",
+    "version": "12+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   }
 ]

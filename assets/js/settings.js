@@ -3,6 +3,7 @@ const closeButton = document.querySelector("#close-settings");
 const changeAlert = document.querySelector("#change-alert");
 const switchBeta = document.querySelector("#apps-beta");
 const applicationType = localStorage.getItem("application-type");
+const cardSizeSettings = document.querySelector("#card-size-settings");
 
 // Fonction qui initialise la page des paramètres
 function initialize() {
@@ -12,6 +13,10 @@ function initialize() {
     } else {
         document.querySelector("label[for=apps-beta]").textContent = "Activé";
         switchBeta.checked = true;
+    }
+
+    if (localStorage.getItem("application-disposition") === "cards") {
+        cardSizeSettings.classList.remove("d-none");
     }
 }
 
@@ -36,7 +41,7 @@ function displayPrereleaseApps() {
 
 // Fonction qui permet de modifier l'affichage des applications
 function changeApplicationDisposition() {
-    const dispositionSelect = document.getElementById("apps-disposition");
+    const dispositionSelect = document.querySelector("#apps-disposition");
 
     if (dispositionSelect) {
         const savedDisposition = localStorage.getItem("application-disposition");
@@ -46,27 +51,54 @@ function changeApplicationDisposition() {
 
         dispositionSelect.addEventListener("change", function (e) {
             const value = e.target.value;
-            console.log("Disposition choisie :", value);
 
             localStorage.setItem("application-disposition", value);
 
-            const appContainer = document.getElementById("applications-container");
-            if (appContainer) {
-                appContainer.classList.remove("cards-layout", "list-layout");
-                appContainer.classList.add(value === "list" ? "list-layout" : "cards-layout");
+            if (value === "cards") {
+                cardSizeSettings.classList.remove("d-none");
+            } else {
+                cardSizeSettings.classList.add("d-none");
             }
         });
     }
 }
 
-function accessToHomepage() {
-    if (!localStorage.getItem("alert-dismissed")) {
-        document.querySelector("#welcome-alert").classList.remove("d-none");
+function changeApplicationSort() {
+    const sortSelect = document.querySelector("#apps-sort");
+
+    if (sortSelect) {
+        const savedSort = localStorage.getItem("application-sort");
+        if (savedSort) {
+            sortSelect.value = savedSort;
+        }
+
+        sortSelect.addEventListener("change", function (e) {
+            const value = e.target.value;
+
+            localStorage.setItem("application-sort", value);
+        });
     }
-    document.querySelector("#settings").classList.add("d-none");
-    document.querySelector("#applications-container").classList.remove("d-none");
-    document.querySelector("#application-detail").classList.remove("d-none");
-    document.querySelector("#search").classList.remove("d-none");
+}
+
+function changeCardsSize() {
+    const cardSizeSelect = document.querySelector("#card-size-select");
+
+    if (cardSizeSelect) {
+        const savedSort = localStorage.getItem("application-sort");
+        if (savedSort) {
+            cardSizeSelect.value = savedSort;
+        }
+
+        cardSizeSelect.addEventListener("change", function (e) {
+            const value = e.target.value;
+
+            localStorage.setItem("cards-size", value);
+        });
+    }
+}
+
+function accessToHomepage() {
+    window.location.reload();
 }
 
 // Ajouts des écouteurs d'événements et appel de la fonction d'initialisation
@@ -74,3 +106,4 @@ initialize();
 closeButton.addEventListener("click", accessToHomepage);
 switchBeta.addEventListener("click", displayPrereleaseApps);
 changeApplicationDisposition();
+changeApplicationSort();
