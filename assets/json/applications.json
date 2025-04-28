@@ -2036,5 +2036,61 @@
       "x86_64",
       "arm64"
     ]
+  },
+  {
+    "id": "pb",
+    "name": "PB for Desktop",
+    "description": "Client Pushbullet pour bureau.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/pushbullet.png",
+    "developer": "Pushbullet Team",
+    "category": "Communication",
+    "website": "https://pushbullet.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "sweet-home-3d",
+    "name": "Sweet Home 3D",
+    "description": "Logiciel d'aménagement intérieur en 2D et 3D.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/sweet-home-3d.png",
+    "developer": "eTeks",
+    "category": "Design",
+    "website": "http://www.sweethome3d.com/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "kid3",
+    "name": "Kid3",
+    "description": "Éditeur de tags pour fichiers audio.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/kid3.png",
+    "developer": "Urs Fleisch",
+    "category": "Audio",
+    "website": "https://kid3.sourceforge.io/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  {
+    "id": "joplin",
+    "name": "Joplin",
+    "description": "Application de prise de notes et de gestion de tâches.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/joplin.png",
+    "developer": "Laurent Cozic",
+    "category": "Productivité",
+    "website": "https://joplinapp.org/",
+    "version": "11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   }
 ]
