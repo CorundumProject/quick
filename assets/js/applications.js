@@ -34,15 +34,21 @@ function appDetails(appId) {
             const app = data.find(app => app.id === appId);
             if (app) {
                 selectedApplicationContainer.innerHTML = `
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <img src="${app.icon}" alt="${app.name}" class="w-25 mb-3 text-center">
-                            <h5 class="card-title text-center">${app.name}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted text-center">${app.category}</h6>
-                            <p class="card-text text-center">${app.description}</p>
-                            <p class="card-text text-center">Vous devez être sur macOS ${app.version}</p>
-                            <a href="${app.website}" target="_blank" class="btn btn-primary">Site officiel</a>
-                            <button id="back-button" class="btn btn-secondary">Revenir en arrière</button>
+                    <div class="card d-flex flex-row justify-content-between align-items-center">
+                        <img src="${app.icon}" alt="${app.name}" class="w-25 mb-3 text-center">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-start">
+                            <h5 class="w-100 card-title text-left">${app.name}</h5>
+                            <h6 class="w-100 card-subtitle text-left mb-2 text-muted">${app.category}</h6>
+                            <p class="w-100 card-text text-left">${app.description}</p>
+                            <h6 class="w-100 text-left">Assistant compatibilité</h6>
+                            <ul class="w-100 text-left">
+                                <li class="card-text">Vous devez être sur macOS ${app.version}</li>
+                                <li class="card-text">Vous devez avoir un processeur ${app.architecture}</li>
+                            </ul>
+                            <div class="btn-group w-100" role="group" aria-label="Interaction avec l'application">
+                                <a href="${app.website}" target="_blank" class="btn btn-primary">Site officiel</a>
+                                <button id="back-button" class="btn btn-secondary">Revenir en arrière</button>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -86,28 +92,127 @@ outputCommand.addEventListener("click", () => {
 
     // Utiliser l'API Clipboard pour copier
     navigator.clipboard.writeText(commandText).then(() => {
-        status.classList.add("text-success");
-        status.textContent = "Texte copié !";
-
+        status.classList.remove("d-none");
         setTimeout(() => {
-            status.classList.remove("text-success");
-            status.textContent = "";
+            status.classList.add("d-none");
         }, 2500);
     }).catch((err) => {
-        status.classList.add("text-danger");
+        status.classList.remove("d-none");
+        status.classList.remove("alert-success");
+        status.classList.add("alert-danger");
         status.textContent = "Une erreur est survenue : " + err;
         setTimeout(() => {
-            status.classList.remove("text-danger");
-            status.textContent = "";
+            status.classList.remove("alert-danger");
+            status.classList.add("alert-success");
+            status.textContent = "La commande a été copiée dans le presse-papier avec succès !";
+            status.classList.add("d-none");
         }, 2500);
     });
 });
 
+function renderApplication(app) {
+    const disposition = localStorage.getItem("application-disposition") || "cards";
+
+    if (disposition === "list") {
+        const col = document.createElement("div");
+        col.classList.add("col-12", "w-100");
+
+        // Conteneur principal
+        const wrapperDiv = document.createElement("div");
+        wrapperDiv.classList.add("list", "w-100", "d-flex", "align-items-center", "justify-content-between", "border", "rounded", "p-2");
+
+        if (localStorage.getItem("application-type") === "default") {
+            wrapperDiv.addEventListener("click", () => selectApp(wrapperDiv, app.id));
+        } else if (localStorage.getItem("application-type") === "pre-release") {
+            wrapperDiv.addEventListener("click", () => selectApp(wrapperDiv, app.beta));
+        }
+
+        // Conteneur pour l'image et le nom
+        const infoDiv = document.createElement("div");
+        infoDiv.classList.add("d-flex", "align-items-center");
+
+        // Image de l'application
+        const appIcon = document.createElement("img");
+        appIcon.src = app.icon;
+        appIcon.alt = `Icône ${app.name}`;
+        appIcon.classList.add("rounded", "me-2");
+        appIcon.style.width = "64px";
+        appIcon.style.height = "64px";
+
+        const appName = document.createElement("span");
+        appName.classList.add("fw-medium");
+        appName.textContent = app.name;
+
+        const infoButton = document.createElement("i");
+        infoButton.classList.add("bi", "bi-info-circle", "fs-5", "text-secondary");
+        infoButton.setAttribute("role", "button");
+        infoButton.addEventListener("click", () => appDetails(app.id)); // Ajout de la fonction de détails
+
+        infoDiv.appendChild(appIcon);
+        infoDiv.appendChild(appName);
+        wrapperDiv.appendChild(infoDiv);
+        wrapperDiv.appendChild(infoButton);
+        col.appendChild(wrapperDiv);
+
+        return col; // Retourne l'élément pour ajout
+    } else {
+        const colDiv = document.createElement("div");
+        colDiv.classList.add("col-md-4", "mb-3");
+
+        const cardDiv = document.createElement("div");
+        cardDiv.classList.add("card", "h-100", "border-3");
+        if (localStorage.getItem("application-type") === "default") {
+            cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
+        } else if (localStorage.getItem("application-type") === "pre-release") {
+            cardDiv.addEventListener("click", () => selectApp(cardDiv, app.beta));
+        }
+
+        if (selectedApplications.includes(app.id) || selectedApplications.includes(app.beta)) {
+            cardDiv.classList.add("border-primary");
+        }
+
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "mt-4");
+
+        const img = document.createElement("img");
+        img.src = app.icon;
+        img.classList.add("w-25");
+        img.alt = app.name;
+
+        const cardBody = document.createElement("div");
+        cardBody.classList.add("card-body");
+
+        const cardTitle = document.createElement("h5");
+        cardTitle.classList.add("card-title", "text-center");
+        cardTitle.textContent = app.name;
+
+        const cardLink = document.createElement("button");
+        cardLink.classList.add("btn", "btn-primary", "mt-2", "mb-2", "w-100");
+        cardLink.textContent = "Détails";
+        cardLink.addEventListener("click", (event) => {
+            event.stopPropagation(); // Empêcher la propagation de l'événement
+            if (app.id) {
+                appDetails(app.id);
+            } else if (app.beta) {
+                appDetails(app.beta);
+            }
+        });
+
+        imgContainer.appendChild(img);
+        cardBody.appendChild(cardTitle);
+        cardDiv.appendChild(imgContainer);
+        cardDiv.appendChild(cardBody);
+        cardBody.appendChild(cardLink);
+        colDiv.appendChild(cardDiv);
+        return colDiv; // Retourne l'élément pour ajout
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     // Chargement du fichier JSON avec fetch()
-    const applicationsContainer = document.getElementById("applications-container");
-    const searchInput = document.getElementById("search-input");
-    const searchButton = document.getElementById("search-button");
+    const applicationsContainer = document.querySelector("#applications-container");
+    const searchInput = document.querySelector("#search-input");
+    const searchButton = document.querySelector("#search-button");
 
     function fetchAndDisplayApps(searchTerm = "") {
         fetch("https://corundum.fr/quick/assets/json/applications.json")
@@ -118,7 +223,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 return response.json();
             })
             .then(data => {
-                applicationsContainer.innerHTML = ""; // Effacer les résultats précédents
+                applicationsContainer.innerHTML = ""; // Effacer les résultats précédents une seule fois
+                const fragment = document.createDocumentFragment();
+
                 data.filter(app => {
                     const lowerSearch = searchTerm.toLowerCase();
                     return (
@@ -127,50 +234,16 @@ document.addEventListener("DOMContentLoaded", () => {
                         app.developer.toLowerCase().includes(lowerSearch)
                     );
                 }).forEach(app => {
-                    const colDiv = document.createElement("div");
-                    colDiv.classList.add("col-md-4", "mb-3");
-
-                    const cardDiv = document.createElement("div");
-                    cardDiv.classList.add("card", "h-100", "border-3");
-                    cardDiv.addEventListener("click", () => selectApp(cardDiv, app.id));
-
-                    if (selectedApplications.includes(app.id)) {
-                        cardDiv.classList.add("border-primary");
-                    }
-
-                    const imgContainer = document.createElement("div");
-                    imgContainer.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "mt-4");
-
-                    const img = document.createElement("img");
-                    img.src = app.icon;
-                    img.classList.add("w-25");
-                    img.alt = app.name;
-
-                    const cardBody = document.createElement("div");
-                    cardBody.classList.add("card-body");
-
-                    const cardTitle = document.createElement("h5");
-                    cardTitle.classList.add("card-title", "text-center");
-                    cardTitle.textContent = app.name;
-
-                    const cardLink = document.createElement("button");
-                    cardLink.classList.add("btn", "btn-primary", "mt-2", "mb-2", "w-100");
-                    cardLink.textContent = "Détails";
-                    cardLink.addEventListener("click", (event) => {
-                        event.stopPropagation(); // Empêcher la propagation de l'événement
-                        appDetails(app.id);
-                    });
-
-                    imgContainer.appendChild(img);
-                    cardBody.appendChild(cardTitle);
-                    cardDiv.appendChild(imgContainer);
-                    cardDiv.appendChild(cardBody);
-                    cardBody.appendChild(cardLink);
-                    colDiv.appendChild(cardDiv);
-                    applicationsContainer.appendChild(colDiv);
+                    const card = renderApplication(app); // Rend une carte ou une liste
+                    fragment.appendChild(card); // Ajoute au fragment
                 });
+
+                applicationsContainer.appendChild(fragment); // Ajout groupé au DOM
             })
-            .catch(error => console.error("Erreur :", error));
+            .catch(error => {
+                selectedApplicationContainer.innerHTML = `<p class="alert alert-danger">Impossible de charger les applications. Veuillez réessayer plus tard. Si le problème persiste, veuillez ouvrir une issue sur <a href="https://github.com/corundumproject/quick/issues/" target="_blank" class="alert-link">GitHub</a>.</p>`;
+                console.error("Erreur :", error);
+            });
     }
 
     searchButton.addEventListener("click", () => {
