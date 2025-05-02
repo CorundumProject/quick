@@ -2106,5 +2106,19 @@
       "x86_64",
       "arm64"
     ]
+  },
+  {
+    "id": "oceanaudio",
+    "name": "Ocenaudio",
+    "description": "Éditeur audio rapide, facile à utiliser et puissant.",
+    "icon": "https://corundumproject.github.io/quick/assets/icons/oceanaudio.png",
+    "developer": "Ocenaudio Team",
+    "category": "Audio",
+    "website": "https://www.ocenaudio.com/",
+    "version": "10.11+",
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   }
 ]
