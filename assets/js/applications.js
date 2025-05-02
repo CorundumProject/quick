@@ -226,19 +226,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 applicationsContainer.innerHTML = ""; // Effacer les résultats précédents une seule fois
                 const fragment = document.createDocumentFragment();
 
-                data.filter(app => {
-                    const lowerSearch = searchTerm.toLowerCase();
-                    return (
-                        app.name.toLowerCase().includes(lowerSearch) ||
-                        app.category.toLowerCase().includes(lowerSearch) ||
-                        app.developer.toLowerCase().includes(lowerSearch)
-                    );
-                }).forEach(app => {
-                    const card = renderApplication(app); // Rend une carte ou une liste
-                    fragment.appendChild(card); // Ajoute au fragment
-                });
+                // Utilisation des règles de tri
+                if (localStorage.getItem("application-sort") === "a-z") {
 
-                applicationsContainer.appendChild(fragment); // Ajout groupé au DOM
+                } else if (localStorage.getItem("application-sort") === "z-a") {
+
+                } else if (localStorage.getItem("application-sort") === "category") {
+
+                } else if (localStorage.getItem("application-sort") === "developer") {
+
+                } else {
+                    data.filter(app => {
+                        const lowerSearch = searchTerm.toLowerCase();
+                        return (
+                            app.name.toLowerCase().includes(lowerSearch) ||
+                            app.category.toLowerCase().includes(lowerSearch) ||
+                            app.developer.toLowerCase().includes(lowerSearch)
+                        );
+                    }).forEach(app => {
+                        const card = renderApplication(app); // Rend une carte ou une liste
+                        fragment.appendChild(card); // Ajoute au fragment
+                    });
+
+                    applicationsContainer.appendChild(fragment); // Ajout groupé au DOM
+                }
             })
             .catch(error => {
                 selectedApplicationContainer.innerHTML = `<p class="alert alert-danger">Impossible de charger les applications. Veuillez réessayer plus tard. Si le problème persiste, veuillez ouvrir une issue sur <a href="https://github.com/corundumproject/quick/issues/" target="_blank" class="alert-link">GitHub</a>.</p>`;
