@@ -223,33 +223,37 @@ document.addEventListener("DOMContentLoaded", () => {
                 return response.json();
             })
             .then(data => {
-                applicationsContainer.innerHTML = ""; // Effacer les résultats précédents une seule fois
+                applicationsContainer.innerHTML = "";
                 const fragment = document.createDocumentFragment();
 
-                // Utilisation des règles de tri
-                if (localStorage.getItem("application-sort") === "a-z") {
+                const lowerSearch = searchTerm.toLowerCase();
 
-                } else if (localStorage.getItem("application-sort") === "z-a") {
+                // Filtrage
+                let filteredData = data.filter(app =>
+                    app.name.toLowerCase().includes(lowerSearch) ||
+                    app.category.toLowerCase().includes(lowerSearch) ||
+                    app.developer.toLowerCase().includes(lowerSearch)
+                );
 
-                } else if (localStorage.getItem("application-sort") === "category") {
-
-                } else if (localStorage.getItem("application-sort") === "developer") {
-
-                } else {
-                    data.filter(app => {
-                        const lowerSearch = searchTerm.toLowerCase();
-                        return (
-                            app.name.toLowerCase().includes(lowerSearch) ||
-                            app.category.toLowerCase().includes(lowerSearch) ||
-                            app.developer.toLowerCase().includes(lowerSearch)
-                        );
-                    }).forEach(app => {
-                        const card = renderApplication(app); // Rend une carte ou une liste
-                        fragment.appendChild(card); // Ajoute au fragment
-                    });
-
-                    applicationsContainer.appendChild(fragment); // Ajout groupé au DOM
+                // Tri
+                const sort = localStorage.getItem("application-sort");
+                if (sort === "a-z") {
+                    filteredData.sort((a, b) => a.name.localeCompare(b.name));
+                } else if (sort === "z-a") {
+                    filteredData.sort((a, b) => b.name.localeCompare(a.name));
+                } else if (sort === "category") {
+                    filteredData.sort((a, b) => a.category.localeCompare(b.category));
+                } else if (sort === "developer") {
+                    filteredData.sort((a, b) => a.developer.localeCompare(b.developer));
                 }
+
+                // Génération des cartes
+                filteredData.forEach(app => {
+                    const card = renderApplication(app);
+                    fragment.appendChild(card);
+                });
+
+                applicationsContainer.appendChild(fragment);
             })
             .catch(error => {
                 selectedApplicationContainer.innerHTML = `<p class="alert alert-danger">Impossible de charger les applications. Veuillez réessayer plus tard. Si le problème persiste, veuillez ouvrir une issue sur <a href="https://github.com/corundumproject/quick/issues/" target="_blank" class="alert-link">GitHub</a>.</p>`;
