@@ -258,6 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch(error => {
                 selectedApplicationContainer.innerHTML = `<p class="alert alert-danger">Impossible de charger les applications. Veuillez réessayer plus tard. Si le problème persiste, veuillez ouvrir une issue sur <a href="https://github.com/corundumproject/quick/issues/" target="_blank" class="alert-link">GitHub</a>.</p>`;
                 console.error("Erreur :", error);
+                searchInput.disabled = true;
             });
     }
 
