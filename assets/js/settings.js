@@ -97,6 +97,24 @@ function changeCardsSize() {
     }
 }
 
+
+function changeTheme() {
+    const themeSelect = document.querySelector("#theme-select");
+
+    if (themeSelect) {
+        const savedSort = localStorage.getItem("theme");
+        if (savedSort) {
+            themeSelect.value = savedSort;
+        }
+
+        themeSelect.addEventListener("change", function (e) {
+            const value = e.target.value;
+
+            localStorage.setItem("theme", value);
+        });
+    }
+}
+
 function accessToHomepage() {
     window.location.reload();
 }
@@ -107,3 +125,4 @@ closeButton.addEventListener("click", accessToHomepage);
 switchBeta.addEventListener("click", displayPrereleaseApps);
 changeApplicationDisposition();
 changeApplicationSort();
+changeTheme();
