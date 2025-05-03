@@ -159,6 +159,12 @@ function renderApplication(app) {
         const colDiv = document.createElement("div");
         colDiv.classList.add("col-md-4", "mb-3");
 
+        if (localStorage.getItem("cards-size") === "big") {
+            colDiv.classList.add("w-50");
+        } else if (localStorage.getItem("cards-size") === "small") {
+            colDiv.classList.add("w-25");
+        }
+
         const cardDiv = document.createElement("div");
         cardDiv.classList.add("card", "h-100", "border-3");
         if (localStorage.getItem("application-type") === "default") {

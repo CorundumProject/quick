@@ -84,7 +84,7 @@ function changeCardsSize() {
     const cardSizeSelect = document.querySelector("#card-size-select");
 
     if (cardSizeSelect) {
-        const savedSort = localStorage.getItem("application-sort");
+        const savedSort = localStorage.getItem("cards-size");
         if (savedSort) {
             cardSizeSelect.value = savedSort;
         }
@@ -143,4 +143,5 @@ switchBeta.addEventListener("click", displayPrereleaseApps);
 changeApplicationDisposition();
 changeApplicationSort();
 changeTheme();
+changeCardsSize();
 displayButton();

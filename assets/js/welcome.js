@@ -44,6 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (!localStorage.getItem("cards-size")) {
-        localStorage.setItem("card-sizes", "3");
+        localStorage.setItem("card-sizes", "big");
     }
 });
