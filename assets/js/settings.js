@@ -115,6 +115,23 @@ function changeTheme() {
     }
 }
 
+function displayButton() {
+    const installButtonSelect = document.querySelector("#install-button-select");
+
+    if (installButtonSelect) {
+        const savedSort = localStorage.getItem("install-button");
+        if (savedSort) {
+            installButtonSelect.value = savedSort;
+        }
+
+        installButtonSelect.addEventListener("change", function (e) {
+            const value = e.target.value;
+
+            localStorage.setItem("install-button", value);
+        });
+    }
+}
+
 function accessToHomepage() {
     window.location.reload();
 }
@@ -126,3 +143,4 @@ switchBeta.addEventListener("click", displayPrereleaseApps);
 changeApplicationDisposition();
 changeApplicationSort();
 changeTheme();
+displayButton();

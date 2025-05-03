@@ -228,6 +228,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const lowerSearch = searchTerm.toLowerCase();
 
+                const installButton = document.createElement("button");
+                installButton.classList.add("btn", "btn-primary", "w-100");
+                installButton.textContent = "Installer";
+                installButton.addEventListener("click", () => {
+                    const command = "brew install --cask " + selectedApplications.join(" ");
+                    outputCommand.textContent = command;
+                    generateInstallCommand();
+                });
+
                 // Filtrage
                 let filteredData = data.filter(app =>
                     app.name.toLowerCase().includes(lowerSearch) ||
@@ -247,6 +256,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     filteredData.sort((a, b) => a.developer.localeCompare(b.developer));
                 }
 
+                // Affichage du bouton Installer en haut si actif
+                if (localStorage.getItem("install-button") === "top") {
+                    applicationsContainer.appendChild(installButton);
+                }
+
                 // Génération des cartes
                 filteredData.forEach(app => {
                     const card = renderApplication(app);
@@ -254,6 +268,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 applicationsContainer.appendChild(fragment);
+
+                // Affichage du bouton Installer en haut si actif
+                if (localStorage.getItem("install-button") === "bottom") {
+                    applicationsContainer.appendChild(installButton);
+                }
             })
             .catch(error => {
                 selectedApplicationContainer.innerHTML = `<p class="alert alert-danger">Impossible de charger les applications. Veuillez réessayer plus tard. Si le problème persiste, veuillez ouvrir une issue sur <a href="https://github.com/corundumproject/quick/issues/" target="_blank" class="alert-link">GitHub</a>.</p>`;

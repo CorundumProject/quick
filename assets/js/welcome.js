@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (!localStorage.getItem("install-button")) {
-        localStorage.setItem("install-button", "disabled");
+        localStorage.setItem("install-button", "default");
     }
 
     if (!localStorage.getItem("cards-size")) {
