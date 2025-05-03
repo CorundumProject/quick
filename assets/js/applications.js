@@ -228,8 +228,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const lowerSearch = searchTerm.toLowerCase();
 
+                const installCard = document.createElement("div");
+                installCard.classList.add("w-100", "border", "border-0", "text-end");
+
                 const installButton = document.createElement("button");
-                installButton.classList.add("btn", "btn-primary", "w-100");
+                installButton.classList.add("btn", "btn-primary");
                 installButton.textContent = "Installer";
                 installButton.addEventListener("click", () => {
                     const command = "brew install --cask " + selectedApplications.join(" ");
@@ -258,7 +261,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Affichage du bouton Installer en haut si actif
                 if (localStorage.getItem("install-button") === "top") {
-                    applicationsContainer.appendChild(installButton);
+                    applicationsContainer.appendChild(installCard);
+                    installCard.appendChild(installButton);
                 }
 
                 // Génération des cartes
@@ -271,7 +275,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Affichage du bouton Installer en haut si actif
                 if (localStorage.getItem("install-button") === "bottom") {
-                    applicationsContainer.appendChild(installButton);
+                    applicationsContainer.appendChild(installCard);
+                    installCard.appendChild(installButton);
                 }
             })
             .catch(error => {
