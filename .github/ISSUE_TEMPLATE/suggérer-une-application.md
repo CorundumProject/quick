@@ -1,6 +1,6 @@
 ---
-name: Ajouter une application
-about: Suggérer une nouvelle application à ajouter
+name: Suggérer une application
+about: Suggérer une nouvelle application
 title: ''
 labels: applications
 assignees: ''
@@ -15,3 +15,6 @@ assignees: ''
 
 **Votre application possède-t-il un identifiant bêta ? Laisser vide si ce n'est pas le cas**
 *Exemple : `google-chrome@beta`*
+
+**Votre application possède-t-il un site Internet ?**
+*Exemple : `https://www.google.com/intl/fr_fr/chrome/`*
