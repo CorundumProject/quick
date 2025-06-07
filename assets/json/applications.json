@@ -939,7 +939,7 @@
     ]
   },
   {
-    "id": "app-cleaner",
+    "id": "appcleaner",
     "name": "AppCleaner",
     "description": "Désinstalleur avancé d'applications.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png",
