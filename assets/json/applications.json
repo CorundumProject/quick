@@ -50,7 +50,7 @@
     "description": "Éditeur de code léger et puissant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/vscode.png",
     "developer": "Microsoft",
-    "category": "Éditeur de code",
+    "category": "Éditeur",
     "website": "https://code.visualstudio.com/",
     "version": "10.15+",
     "architecture": [
@@ -79,7 +79,7 @@
     "description": "Service de streaming musical avec des millions de titres.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/spotify.png",
     "developer": "Spotify Ltd.",
-    "category": "Musique",
+    "category": "Multimédia",
     "website": "https://www.spotify.com/",
     "version": "11+",
     "architecture": [
@@ -222,7 +222,7 @@
     "description": "Outil de décompression prenant en charge de nombreux formats d'archives.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/the-unarchiver.png",
     "developer": "MacPaw Inc.",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://theunarchiver.com/",
     "version": "10.13+",
     "architecture": [
@@ -252,7 +252,7 @@
     "description": "Éditeur de texte sophistiqué pour le développement et la programmation.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/sublime-text.png",
     "developer": "Sublime HQ Pty Ltd",
-    "category": "Éditeur de texte",
+    "category": "Éditeur",
     "website": "https://www.sublimetext.com/",
     "version": "10.11+",
     "architecture": [
@@ -295,7 +295,7 @@
     "description": "Logiciel d'édition audio libre et open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/audacity.png",
     "developer": "Audacity Team",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://www.audacityteam.org/",
     "version": "10.13+",
     "architecture": [
@@ -309,7 +309,7 @@
     "description": "Outil de conversion vidéo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/handbrake.png",
     "developer": "HandBrake Team",
-    "category": "Vidéo",
+    "category": "Multimédia",
     "website": "https://handbrake.fr/",
     "version": "10.13+",
     "architecture": [
@@ -408,7 +408,7 @@
     "description": "Vérifier la structure des fichiers du système, effectuer Utilitairees opérations de maintenance, etc.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/onyx.png",
     "developer": "Titanium Software",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.titanium-software.fr/en/onyx.html",
     "version": "10.11+",
     "architecture": [
@@ -538,7 +538,7 @@
     "description": "Outil de création de clés USB bootables.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/etcher.png",
     "developer": "Balena",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.balena.io/etcher/",
     "version": "10.15+",
     "architecture": [
@@ -651,7 +651,7 @@
     "description": "Client FTP/SFTP open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/cyberduck.png",
     "developer": "iterate GmbH",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://cyberduck.io/",
     "version": "10.13+",
     "architecture": [
@@ -665,7 +665,7 @@
     "description": "Client BitTorrent léger et open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/transmission.png",
     "developer": "Transmission Project",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://transmissionbt.com/",
     "version": "10.13+",
     "architecture": [
@@ -693,7 +693,7 @@
     "description": "Émulateur multi-consoles pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/openemu.png",
     "developer": "OpenEmu Team",
-    "category": "Émulateur",
+    "category": "Jeux",
     "website": "https://openemu.org/",
     "version": "10.11+",
     "architecture": [
@@ -750,7 +750,7 @@
     "description": "Logiciel de récupération de données pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/disk-drill.png",
     "developer": "CleverFiles",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.cleverfiles.com/disk-drill-mac.html",
     "version": "10.15+",
     "architecture": [
@@ -765,7 +765,7 @@
     "description": "Logiciel de streaming et d'enregistrement vidéo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/obs-studio.png",
     "developer": "OBS Project",
-    "category": "Vidéo",
+    "category": "Multimédia",
     "website": "https://obsproject.com/",
     "version": "11+",
     "architecture": [
@@ -779,7 +779,7 @@
     "description": "Logiciel de traitement photo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/darktable.png",
     "developer": "Darktable Team",
-    "category": "Photo",
+    "category": "Graphisme",
     "website": "https://www.darktable.org/",
     "version": "13+",
     "architecture": [
@@ -793,7 +793,7 @@
     "description": "Éditeur vidéo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/shotcut.png",
     "developer": "Meltytech, LLC",
-    "category": "Vidéo",
+    "category": "Multimédia",
     "website": "https://shotcut.org/",
     "version": "11+",
     "architecture": [
@@ -807,7 +807,7 @@
     "description": "Logiciel de notation musicale open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/musescore.png",
     "developer": "MuseScore BVBA",
-    "category": "Musique",
+    "category": "Multimédia",
     "website": "https://musescore.org/",
     "version": "10.14+",
     "architecture": [
@@ -915,7 +915,7 @@
     "description": "Service de streaming musical.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/deezer.png",
     "developer": "Deezer S.A.",
-    "category": "Musique",
+    "category": "Multimédia",
     "website": "https://www.deezer.com/",
     "version": "11+",
     "architecture": [
@@ -944,7 +944,7 @@
     "description": "Désinstalleur avancé d'applications.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/appcleaner.png",
     "developer": "FreeMacSoft",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://freemacsoft.net/appcleaner/",
     "version": "10.13+",
     "architecture": [
@@ -958,7 +958,7 @@
     "description": "Émulateur Android pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/bluestacks.png",
     "developer": "BlueStacks Inc.",
-    "category": "Émulateur",
+    "category": "Jeux",
     "website": "https://www.bluestacks.com/",
     "version": "10.13+",
     "architecture": [
@@ -985,7 +985,7 @@
     "description": "Lecteur de fichiers PDF.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/adobe-acrobat-reader.png",
     "developer": "Adobe Inc.",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://acrobat.adobe.com/fr/fr/acrobat/pdf-reader.html",
     "version": "10.11+",
     "architecture": [
@@ -999,7 +999,7 @@
     "description": "Logiciel d'accès et de support à distance.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/teamviewer.png",
     "developer": "TeamViewer AG",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.teamviewer.com/",
     "version": "10.11+",
     "architecture": [
@@ -1083,7 +1083,7 @@
     "description": "Outil d'optimisation et de nettoyage système.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/ccleaner.png",
     "developer": "Piriform Ltd",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.ccleaner.com/",
     "version": "10.11+",
     "architecture": [
@@ -1152,7 +1152,7 @@
     "description": "Solution avancée de sauvegarde et clonage de disque.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/carbon-copy-cloner.png",
     "developer": "Bombich Software",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://bombich.com/",
     "version": "13+",
     "architecture": [
@@ -1180,7 +1180,7 @@
     "description": "Base de données détaillée sur les produits Apple.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/mactracker.png",
     "developer": "Ian Page",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://mactracker.ca/",
     "version": "10.12+",
     "architecture": [
@@ -1235,7 +1235,7 @@
     "description": "Surveille l'état de la batterie des MacBook et iPhone.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/coconutbattery.png",
     "developer": "coconut-flavour",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.coconut-flavour.com/coconutbattery/",
     "version": "12+",
     "architecture": [
@@ -1249,7 +1249,7 @@
     "description": "Outil de nettoyage et d'optimisation pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/cleanmymac.png",
     "developer": "MacPaw",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://macpaw.com/cleanmymac",
     "version": "11+",
     "architecture": [
@@ -1278,7 +1278,7 @@
     "description": "Outil de compression et décompression de fichiers.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/keka.png",
     "developer": "Joaquín Moreno",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.keka.io/",
     "version": "10.11+",
     "architecture": [
@@ -1292,7 +1292,7 @@
     "description": "Transfert de fichiers entre macOS et appareils Android.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/android-file-transfer.png",
     "developer": "Google",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.android.com/filetransfer/",
     "version": "10.11+",
     "architecture": [
@@ -1305,7 +1305,7 @@
     "description": "Client BitTorrent open-source et sans publicité.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/qbittorrent.png",
     "developer": "qBittorrent Team",
-    "category": "Téléchargement",
+    "category": "Stockage",
     "website": "https://www.qbittorrent.org/",
     "version": "10.13+",
     "architecture": [
@@ -1319,7 +1319,7 @@
     "description": "Convertit des sites web en applications macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/fluid.png",
     "developer": "Celestial Teapot",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://fluidapp.com/",
     "version": "10.12+",
     "architecture": [
@@ -1372,7 +1372,7 @@
     "description": "Outil permettant d'installer AltStore sur iOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/altserver.png",
     "developer": "Riley Testut",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://altstore.io/",
     "version": "11+",
     "architecture": [
@@ -1426,7 +1426,7 @@
     "description": "Empêche votre Mac de se mettre en veille.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/keepingyouawake.png",
     "developer": "Tomasz Janeczko",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://keepingyouawake.app",
     "version": "10.13+",
     "architecture": [
@@ -1539,7 +1539,7 @@
     "description": "Gestionnaire de fichiers et client FTP.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/forklift.png",
     "developer": "BinaryNights",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://binarynights.com/",
     "version": "12+",
     "architecture": [
@@ -1553,7 +1553,7 @@
     "description": "Organisation de la barre de menu pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/bartender.png",
     "developer": "Surtees Studios",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.macbartender.com/",
     "version": "11+",
     "architecture": [
@@ -1594,7 +1594,7 @@
     "description": "Outil pour patcher macOS sur des Mac non supportés.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/open-core-legacy-patcher.png",
     "developer": "OpenCore Team",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://dortania.github.io/OpenCore-Legacy-Patcher/",
     "version": "10.11+",
     "architecture": [
@@ -1665,7 +1665,7 @@
     "description": "Éditeur Markdown simple et efficace.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/markedit.png",
     "developer": "MarkEdit Team",
-    "category": "Éditeur de texte",
+    "category": "Éditeur",
     "website": "https://markedit.com/",
     "version": "11+",
     "architecture": [
@@ -1679,7 +1679,7 @@
     "description": "Benchmark pour l'intelligence artificielle.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/geekbench-ai.png",
     "developer": "Primate Labs",
-    "category": "Benchmark",
+    "category": "Productivité",
     "website": "https://www.geekbench.com/ai/",
     "version": "12+",
     "architecture": [
@@ -1693,7 +1693,7 @@
     "description": "Outil de benchmark pour processeurs et GPU.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/geekbench.png",
     "developer": "Primate Labs",
-    "category": "Benchmark",
+    "category": "Productivité",
     "website": "https://www.geekbench.com/",
     "version": "12+",
     "architecture": [
@@ -1707,7 +1707,7 @@
     "description": "Interface graphique pour émulateurs et moteurs de jeux.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/retroarch.png",
     "developer": "The Libretro Team",
-    "category": "Émulateur",
+    "category": "Jeux",
     "website": "https://www.retroarch.com/",
     "version": "12+",
     "architecture": [
@@ -1777,7 +1777,7 @@
     "description": "Application pour accéder à distance à des PC ou Mac.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/microsoft-remote-desktop.png",
     "developer": "Microsoft",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://apps.apple.com/app/microsoft-remote-desktop/id1295203466",
     "version": "12+",
     "architecture": [
@@ -1805,7 +1805,7 @@
     "description": "Éditeur vidéo open-source.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/kdenlive.png",
     "developer": "Kdenlive Team",
-    "category": "Vidéo",
+    "category": "Multimédia",
     "website": "https://kdenlive.org/",
     "version": "11+",
     "architecture": [
@@ -1819,7 +1819,7 @@
     "description": "Éditeur avancé de balises pour fichiers audio.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/mp3tag.png",
     "developer": "Florian Heidenreich",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://www.mp3tag.de/en/",
     "version": "12+",
     "architecture": [
@@ -1833,7 +1833,7 @@
     "description": "Application d'organisation et de balisage audio.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/musicbrainz-picard.png",
     "developer": "MetaBrainz Foundation",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://picard.musicbrainz.org/",
     "version": "12+",
     "architecture": [
@@ -1861,7 +1861,7 @@
     "description": "Outil de gestion avancée des fenêtres.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/tiles.png",
     "developer": "Tiles Team",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://www.tiles.com/",
     "version": "12+",
     "architecture": [
@@ -1875,7 +1875,7 @@
     "description": "Personnalisation d'icônes macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/liteicon.png",
     "developer": "LiteIcon Team",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://freemacsoft.net/liteicon/",
     "version": "12+",
     "architecture": [
@@ -1945,7 +1945,7 @@
     "description": "Outil de dessin simple pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/paintbrush.png",
     "developer": "Soggy Waffles",
-    "category": "Dessin",
+    "category": "Graphisme",
     "website": "https://paintbrush.sourceforge.io/",
     "version": "11+",
     "architecture": [
@@ -1973,7 +1973,7 @@
     "description": "Logiciel de production musicale.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/ableton-live-standard.png",
     "developer": "Ableton",
-    "category": "Musique",
+    "category": "Multimédia",
     "website": "https://www.ableton.com/live/",
     "version": "12+",
     "architecture": [
@@ -2001,7 +2001,7 @@
     "description": "Outil d'accès à distance rapide et sécurisé.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/anydesk.png",
     "developer": "AnyDesk Software GmbH",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://anydesk.com/",
     "version": "12+",
     "architecture": [
@@ -2015,7 +2015,7 @@
     "description": "Outil de traduction avancé.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/deepl.png",
     "developer": "DeepL GmbH",
-    "category": "Traduction",
+    "category": "Productivité",
     "website": "https://www.deepl.com/",
     "version": "12+",
     "architecture": [
@@ -2043,7 +2043,7 @@
     "description": "Application de mise à jour rapide des logiciels.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/latest.png",
     "developer": "Latest Team",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://max.codes/latest/",
     "version": "11+",
     "architecture": [
@@ -2071,7 +2071,7 @@
     "description": "Éditeur de tags pour fichiers audio.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/kid3.png",
     "developer": "Urs Fleisch",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://kid3.sourceforge.io/",
     "version": "11+",
     "architecture": [
@@ -2085,7 +2085,7 @@
     "description": "Logiciel d'aménagement intérieur en 2D et 3D.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/sweet-home-3d.png",
     "developer": "eTeks",
-    "category": "Design",
+    "category": "Graphisme",
     "website": "http://www.sweethome3d.com/",
     "version": "11+",
     "architecture": [
@@ -2113,7 +2113,7 @@
     "description": "Éditeur audio rapide, facile à utiliser et puissant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/oceanaudio.png",
     "developer": "Ocenaudio Team",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://www.ocenaudio.com/",
     "version": "10.11+",
     "architecture": [
@@ -2127,10 +2127,13 @@
     "description": "Suite bureautique compatible avec Microsoft Office.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/wpsoffice.png",
     "developer": "Kingsoft",
-    "category": "Bureau",
+    "category": "Bureautique",
     "website": "https://www.wps.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "scratch",
@@ -2141,7 +2144,10 @@
     "category": "Éducation",
     "website": "https://scratch.mit.edu/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "removebg",
@@ -2152,7 +2158,10 @@
     "category": "Graphisme",
     "website": "https://www.remove.bg/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "foobar2000",
@@ -2160,10 +2169,12 @@
     "description": "Lecteur audio avancé et personnalisable.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/foobar2000.png",
     "developer": "Peter Pawlowski",
-    "category": "Audio",
+    "category": "Multimédia",
     "website": "https://www.foobar2000.org/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "app-cleaner",
@@ -2171,10 +2182,13 @@
     "description": "Désinstalle proprement les applications sur macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/app-cleaner.png",
     "developer": "FreeMacSoft",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://freemacsoft.net/appcleaner/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "librewolf",
@@ -2185,7 +2199,10 @@
     "category": "Navigateur Web",
     "website": "https://librewolf.net/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "supertuxkart",
@@ -2196,7 +2213,10 @@
     "category": "Jeux",
     "website": "https://supertuxkart.net/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "openttd",
@@ -2207,7 +2227,10 @@
     "category": "Jeux",
     "website": "https://openttd.org/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "quakespasm",
@@ -2218,7 +2241,9 @@
     "category": "Jeux",
     "website": "https://sourceforge.net/projects/quakespasm/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "sauerbraten",
@@ -2229,7 +2254,9 @@
     "category": "Jeux",
     "website": "http://sauerbraten.org/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "redeclipse",
@@ -2240,7 +2267,9 @@
     "category": "Jeux",
     "website": "https://www.redeclipse.net/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "xonotic",
@@ -2251,7 +2280,9 @@
     "category": "Jeux",
     "website": "https://xonotic.org/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "fs-uae",
@@ -2259,10 +2290,12 @@
     "description": "Émulateur Amiga moderne.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/fs-uae.png",
     "developer": "Frode Solheim",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://fs-uae.net/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "dosbox",
@@ -2270,10 +2303,12 @@
     "description": "Émulateur DOS pour exécuter d'anciens jeux.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/dosbox.png",
     "developer": "DOSBox Team",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://www.dosbox.com/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "nestopia",
@@ -2281,10 +2316,12 @@
     "description": "Émulateur Nintendo Entertainment System (NES).",
     "icon": "https://corundumproject.github.io/quick/assets/icons/nestopia.png",
     "developer": "Nestopia Team",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://nestopia.sourceforge.io/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "snes9x",
@@ -2292,10 +2329,12 @@
     "description": "Émulateur Super Nintendo (SNES) léger et performant.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/snes9x.png",
     "developer": "Snes9x Team",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://www.snes9x.com/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "mgba",
@@ -2303,10 +2342,12 @@
     "description": "Émulateur Game Boy Advance rapide et précis.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/mgba.png",
     "developer": "mGBA Team",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://mgba.io/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "ppsspp",
@@ -2314,10 +2355,12 @@
     "description": "Émulateur PSP pour jouer à des jeux PlayStation Portable.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/ppsspp.png",
     "developer": "PPSSPP Team",
-    "category": "Émulation",
+    "category": "Jeux",
     "website": "https://www.ppsspp.org/",
     "version": "10.11+",
-    "architecture": ["x86_64"]
+    "architecture": [
+      "x86_64"
+    ]
   },
   {
     "id": "vscodium",
@@ -2328,7 +2371,10 @@
     "category": "Développement",
     "website": "https://vscodium.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "tunnelbear",
@@ -2339,7 +2385,10 @@
     "category": "Sécurité",
     "website": "https://www.tunnelbear.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "prismlauncher",
@@ -2350,7 +2399,10 @@
     "category": "Jeux",
     "website": "https://prismlauncher.org/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "mythic",
@@ -2361,7 +2413,10 @@
     "category": "Jeux",
     "website": "https://getmythic.app/",
     "version": "Alpha",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "losslesscut",
@@ -2369,10 +2424,13 @@
     "description": "Outil simple pour couper rapidement les vidéos sans perte.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/losslesscut.png",
     "developer": "Mifi",
-    "category": "Vidéo",
+    "category": "Multimédia",
     "website": "https://github.com/mifi/lossless-cut",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "minstaller",
@@ -2380,10 +2438,13 @@
     "description": "mInstaller permet d'accéder et de gérer l'intégralité de votre collection de plugins et modèles MotionVFX en un clic.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/minstaller.png",
     "developer": "MotionVFX",
-    "category": "Outil de gestion de plugins",
+    "category": "Productivité",
     "website": "https://www.motionvfx.com/",
     "version": "3.x",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "keyboardcleantool",
@@ -2391,10 +2452,13 @@
     "description": "Outil simple pour désactiver temporairement le clavier.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/keyboardcleantool.png",
     "developer": "Matt Rajca",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://keyboardcleantool.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "shottr",
@@ -2402,10 +2466,13 @@
     "description": "Outil de capture d’écran rapide et léger pour macOS.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/shottr.png",
     "developer": "Shottr Team",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://shottr.cc/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "signal",
@@ -2416,7 +2483,10 @@
     "category": "Communication",
     "website": "https://signal.org/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "legcord",
@@ -2427,7 +2497,10 @@
     "category": "Communication",
     "website": "https://legcord.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "telegram",
@@ -2438,7 +2511,10 @@
     "category": "Communication",
     "website": "https://telegram.org/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "viber",
@@ -2449,7 +2525,10 @@
     "category": "Communication",
     "website": "https://www.viber.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "devcleaner",
@@ -2460,7 +2539,10 @@
     "category": "Développement",
     "website": "https://github.com/DevCleanerTeam/DevCleaner",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "alacritty",
@@ -2471,7 +2553,10 @@
     "category": "Développement",
     "website": "https://alacritty.org/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "orion",
@@ -2482,7 +2567,10 @@
     "category": "Navigateur Web",
     "website": "https://orionbrowser.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "zen",
@@ -2493,7 +2581,10 @@
     "category": "Navigateur Web",
     "website": "https://example.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "raycast",
@@ -2501,10 +2592,13 @@
     "description": "Launcher macOS pour booster la productivité.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/raycast.png",
     "developer": "Raycast",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://raycast.com/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "tetrio",
@@ -2515,7 +2609,10 @@
     "category": "Jeux",
     "website": "https://tetr.io/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   },
   {
     "id": "blip",
@@ -2523,9 +2620,12 @@
     "description": "Blip est une application de partage de fichiers direct et sécurisé entre appareils (Mac, iOS, Windows, Android), sans cloud.",
     "icon": "https://corundumproject.github.io/quick/assets/icons/blip.png",
     "developer": "Blip Studio Inc.",
-    "category": "Utilitaire",
+    "category": "Utilitaires",
     "website": "https://blip.net/",
     "version": "10.11+",
-    "architecture": ["x86_64", "arm64"]
+    "architecture": [
+      "x86_64",
+      "arm64"
+    ]
   }
 ]
