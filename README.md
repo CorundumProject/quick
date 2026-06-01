@@ -1,17 +1,10 @@
-# Corundum Quick
+<p align="center">
+  <img src="assets/img/logo.png" height="64">
+</p>
 
-## À propos
+## À propos de Quick
 
 **Corundum Quick** permet aux utilisateurs de Mac ou de distributions GNU/Linux de télécharger des applications via [Homebrew](https://brew.sh/fr) à la manière de sites tels que [Ninite](https://ninite.com/) ou [macapps](https://macapps.link).
-
-## Table des matières
-
-1. [Dépendances](#dépendances)
-2. [Utilisation](#utilisation)
-3. [Contribution](#contribution)
-4. [Licence](#licence)
-5. [Crédits](#crédits)
-6. [Documentation](#documentation)
 
 ## Dépendances
 
